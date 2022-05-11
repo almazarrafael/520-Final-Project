@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="Final_Project_App_system-bitFile" value="${project_loc:Final_Project_App}/_ide/bitstream/Final_Project_BD_wrapper.bit"/>
+	<item key="Final_Project_App_system-bmmFile" value=""/>
+	<item key="Final_Project_App_system-target" value="Local"/>
+	<item key="Final_Project_App_system-device" value="Auto Detect"/>
+	<item key="Final_Project_App_system-partial_bit" value="false"/>
+	<item key="Final_Project_App_system-skip_rev_check" value="false"/>
+	<item key="programfpga.sdxproject" value="Final_Project_App_system"/>
+	<item key="devices_info_Local" value="{&quot;cables&quot;:[{&quot;name&quot;:&quot;Digilent Zybo Z7 210351AB72D0A&quot;,&quot;indexContextMap&quot;:{&quot;2&quot;:&quot;jsn-Zybo Z7-210351AB72D0A-4ba00477-0&quot;,&quot;3&quot;:&quot;jsn-Zybo Z7-210351AB72D0A-13722093-0&quot;}}]}"/>
+</section>

@@ -24,4 +24,7 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Final_Proje
 # IP: bd/Final_Project_BD/ip/Final_Project_BD_auto_pc_0/Final_Project_BD_auto_pc_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Final_Project_BD_auto_pc_0 || ORIG_REF_NAME==Final_Project_BD_auto_pc_0} -quiet] -quiet
 
+# IP: bd/Final_Project_BD/ip/Final_Project_BD_axi_iic_0_0/Final_Project_BD_axi_iic_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Final_Project_BD_axi_iic_0_0 || ORIG_REF_NAME==Final_Project_BD_axi_iic_0_0} -quiet] -quiet
+
 # XDC: /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/Final_Project_BD_ooc.xdc

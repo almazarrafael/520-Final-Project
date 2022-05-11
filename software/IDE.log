@@ -288,3 +288,341 @@ con
 ----------------End of Script----------------
 
 15:49:03 INFO  : Launch script is exported to file '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App_system/_ide/scripts/debugger_final_project_app-default.tcl'
+16:30:53 INFO  : Disconnected from the channel tcfchan#10.
+17:48:12 INFO  : Launching XSCT server: xsct -n  -interactive /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/temp_xsdb_launch_script.tcl
+17:48:14 INFO  : Platform repository initialization has completed.
+17:48:15 INFO  : Registering command handlers for Vitis TCF services
+17:48:16 INFO  : XSCT server has started successfully.
+17:48:16 INFO  : Successfully done setting XSCT server connection channel  
+17:48:16 INFO  : plnx-install-location is set to ''
+17:48:17 INFO  : Successfully done setting workspace for the tool. 
+17:48:17 INFO  : Successfully done query RDI_DATADIR 
+17:51:15 INFO  : Checking for BSP changes to sync application flags for project 'Final_Project_App'...
+18:16:09 INFO  : Hardware specification for platform project 'Final_Project_Platform' is updated.
+18:37:39 INFO  : Result from executing command 'getProjects': Final_Project_Platform
+18:37:39 INFO  : Result from executing command 'getPlatforms': Final_Project_Platform|/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/export/Final_Project_Platform/Final_Project_Platform.xpfm
+18:37:42 INFO  : Checking for BSP changes to sync application flags for project 'Final_Project_App'...
+18:37:44 INFO  : Updating application flags with new BSP settings...
+18:37:44 INFO  : Successfully updated application flags for project Final_Project_App.
+18:38:24 INFO  : Checking for BSP changes to sync application flags for project 'Final_Project_App'...
+18:38:45 INFO  : Checking for BSP changes to sync application flags for project 'Final_Project_App'...
+18:39:31 INFO  : Checking for BSP changes to sync application flags for project 'Final_Project_App'...
+18:40:17 INFO  : Checking for BSP changes to sync application flags for project 'Final_Project_App'...
+18:42:41 INFO  : Checking for BSP changes to sync application flags for project 'Final_Project_App'...
+18:43:06 INFO  : Checking for BSP changes to sync application flags for project 'Final_Project_App'...
+18:53:13 INFO  : The hardware specification used by project 'Final_Project_App' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+18:53:13 INFO  : The file '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/_ide/bitstream/Final_Project_BD_wrapper.bit' stored in project is removed.
+18:53:13 INFO  : The updated bitstream files are copied from platform to folder '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/_ide/bitstream' in project 'Final_Project_App'.
+18:53:13 INFO  : The file '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/_ide/psinit/ps7_init.tcl' stored in project is removed.
+18:53:19 INFO  : The updated ps init files are copied from platform to folder '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/_ide/psinit' in project 'Final_Project_App'.
+18:53:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:53:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB72D0A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB72D0A-13722093-0"}' command is executed.
+18:53:30 INFO  : Device configured successfully with "/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/_ide/bitstream/Final_Project_BD_wrapper.bit"
+18:53:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:53:37 INFO  : Jtag cable 'Digilent Zybo Z7 210351AB72D0A' is selected.
+18:53:37 INFO  : 'jtag frequency' command is executed.
+18:53:37 INFO  : Context for 'APU' is selected.
+18:53:37 INFO  : System reset is completed.
+18:53:40 INFO  : 'after 3000' command is executed.
+18:53:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB72D0A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB72D0A-13722093-0"}' command is executed.
+18:53:41 INFO  : Device configured successfully with "/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/_ide/bitstream/Final_Project_BD_wrapper.bit"
+18:53:41 INFO  : Context for 'APU' is selected.
+18:53:41 INFO  : Hardware design and registers information is loaded from '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/export/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa'.
+18:53:41 INFO  : 'configparams force-mem-access 1' command is executed.
+18:53:41 INFO  : Context for 'APU' is selected.
+18:53:41 INFO  : Sourcing of '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/_ide/psinit/ps7_init.tcl' is done.
+18:53:42 INFO  : 'ps7_init' command is executed.
+18:53:42 INFO  : 'ps7_post_config' command is executed.
+18:53:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:53:42 INFO  : The application '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/Debug/Final_Project_App.elf' is downloaded to processor 'ps7_cortexa9_0'.
+18:53:42 INFO  : 'configparams force-mem-access 0' command is executed.
+18:53:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB72D0A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB72D0A-13722093-0"}
+fpga -file /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/_ide/bitstream/Final_Project_BD_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/export/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/Debug/Final_Project_App.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+18:53:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:53:42 INFO  : 'con' command is executed.
+18:53:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+18:53:42 INFO  : Launch script is exported to file '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App_system/_ide/scripts/systemdebugger_final_project_app_system_standalone.tcl'
+19:12:22 INFO  : Launching XSCT server: xsct -n  -interactive /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/temp_xsdb_launch_script.tcl
+19:12:24 INFO  : Platform repository initialization has completed.
+19:12:25 INFO  : Registering command handlers for Vitis TCF services
+19:12:26 INFO  : XSCT server has started successfully.
+19:12:26 INFO  : plnx-install-location is set to ''
+19:12:26 INFO  : Successfully done setting XSCT server connection channel  
+19:12:26 INFO  : Successfully done query RDI_DATADIR 
+19:12:26 INFO  : Successfully done setting workspace for the tool. 
+19:12:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:12:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB72D0A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB72D0A-13722093-0"}' command is executed.
+19:12:50 INFO  : Device configured successfully with "/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/_ide/bitstream/Final_Project_BD_wrapper.bit"
+19:13:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:13:02 INFO  : Jtag cable 'Digilent Zybo Z7 210351AB72D0A' is selected.
+19:13:02 INFO  : 'jtag frequency' command is executed.
+19:13:02 INFO  : Context for 'APU' is selected.
+19:13:02 INFO  : System reset is completed.
+19:13:05 INFO  : 'after 3000' command is executed.
+19:13:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB72D0A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB72D0A-13722093-0"}' command is executed.
+19:13:06 INFO  : Device configured successfully with "/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/_ide/bitstream/Final_Project_BD_wrapper.bit"
+19:13:06 INFO  : Context for 'APU' is selected.
+19:13:06 INFO  : Hardware design and registers information is loaded from '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/export/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa'.
+19:13:06 INFO  : 'configparams force-mem-access 1' command is executed.
+19:13:06 INFO  : Context for 'APU' is selected.
+19:13:06 INFO  : Sourcing of '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/_ide/psinit/ps7_init.tcl' is done.
+19:13:07 INFO  : 'ps7_init' command is executed.
+19:13:07 INFO  : 'ps7_post_config' command is executed.
+19:13:07 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:13:07 INFO  : The application '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/Debug/Final_Project_App.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:13:07 INFO  : 'configparams force-mem-access 0' command is executed.
+19:13:07 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB72D0A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB72D0A-13722093-0"}
+fpga -file /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/_ide/bitstream/Final_Project_BD_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/export/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/Debug/Final_Project_App.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:13:07 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:13:07 INFO  : 'con' command is executed.
+19:13:07 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:13:07 INFO  : Launch script is exported to file '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App_system/_ide/scripts/debugger_final_project_app-default.tcl'
+19:15:05 INFO  : Result from executing command 'getProjects': Final_Project_Platform
+19:15:05 INFO  : Result from executing command 'getPlatforms': Final_Project_Platform|/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/export/Final_Project_Platform/Final_Project_Platform.xpfm
+19:15:09 INFO  : Checking for BSP changes to sync application flags for project 'Final_Project_App'...
+19:15:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:15:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB72D0A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB72D0A-13722093-0"}' command is executed.
+19:15:18 INFO  : Device configured successfully with "/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/_ide/bitstream/Final_Project_BD_wrapper.bit"
+19:15:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:15:28 INFO  : Jtag cable 'Digilent Zybo Z7 210351AB72D0A' is selected.
+19:15:28 INFO  : 'jtag frequency' command is executed.
+19:15:28 INFO  : Context for 'APU' is selected.
+19:15:28 INFO  : System reset is completed.
+19:15:31 INFO  : 'after 3000' command is executed.
+19:15:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB72D0A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB72D0A-13722093-0"}' command is executed.
+19:15:33 INFO  : Device configured successfully with "/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/_ide/bitstream/Final_Project_BD_wrapper.bit"
+19:15:33 INFO  : Context for 'APU' is selected.
+19:15:33 INFO  : Hardware design and registers information is loaded from '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/export/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa'.
+19:15:33 INFO  : 'configparams force-mem-access 1' command is executed.
+19:15:33 INFO  : Context for 'APU' is selected.
+19:15:33 INFO  : Sourcing of '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/_ide/psinit/ps7_init.tcl' is done.
+19:15:33 INFO  : 'ps7_init' command is executed.
+19:15:33 INFO  : 'ps7_post_config' command is executed.
+19:15:33 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:15:34 INFO  : The application '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/Debug/Final_Project_App.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:15:34 INFO  : 'configparams force-mem-access 0' command is executed.
+19:15:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB72D0A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB72D0A-13722093-0"}
+fpga -file /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/_ide/bitstream/Final_Project_BD_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/export/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/Debug/Final_Project_App.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:15:34 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:15:34 INFO  : 'con' command is executed.
+19:15:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:15:34 INFO  : Disconnected from the channel tcfchan#1.
+19:16:19 INFO  : Checking for BSP changes to sync application flags for project 'Final_Project_App'...
+19:16:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:16:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB72D0A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB72D0A-13722093-0"}' command is executed.
+19:16:34 INFO  : Device configured successfully with "/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/_ide/bitstream/Final_Project_BD_wrapper.bit"
+19:16:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:16:39 INFO  : Jtag cable 'Digilent Zybo Z7 210351AB72D0A' is selected.
+19:16:39 INFO  : 'jtag frequency' command is executed.
+19:16:39 INFO  : Context for 'APU' is selected.
+19:16:39 INFO  : System reset is completed.
+19:16:42 INFO  : 'after 3000' command is executed.
+19:16:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB72D0A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB72D0A-13722093-0"}' command is executed.
+19:16:43 INFO  : Device configured successfully with "/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/_ide/bitstream/Final_Project_BD_wrapper.bit"
+19:16:43 INFO  : Context for 'APU' is selected.
+19:16:43 INFO  : Hardware design and registers information is loaded from '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/export/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa'.
+19:16:43 INFO  : 'configparams force-mem-access 1' command is executed.
+19:16:43 INFO  : Context for 'APU' is selected.
+19:16:43 INFO  : Sourcing of '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/_ide/psinit/ps7_init.tcl' is done.
+19:16:44 INFO  : 'ps7_init' command is executed.
+19:16:44 INFO  : 'ps7_post_config' command is executed.
+19:16:44 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:16:44 INFO  : The application '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/Debug/Final_Project_App.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:16:44 INFO  : 'configparams force-mem-access 0' command is executed.
+19:16:44 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB72D0A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB72D0A-13722093-0"}
+fpga -file /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/_ide/bitstream/Final_Project_BD_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/export/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/Debug/Final_Project_App.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:16:44 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:16:44 INFO  : 'con' command is executed.
+19:16:44 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:16:44 INFO  : Disconnected from the channel tcfchan#3.
+19:37:43 INFO  : Checking for BSP changes to sync application flags for project 'Final_Project_App'...
+19:37:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:37:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB72D0A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB72D0A-13722093-0"}' command is executed.
+19:38:00 INFO  : Device configured successfully with "/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/_ide/bitstream/Final_Project_BD_wrapper.bit"
+19:38:12 WARN  : channel "tcfchan#1" closed
+19:38:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:38:13 INFO  : Jtag cable 'Digilent Zybo Z7 210351AB72D0A' is selected.
+19:38:13 INFO  : 'jtag frequency' command is executed.
+19:38:13 INFO  : Context for 'APU' is selected.
+19:38:13 INFO  : System reset is completed.
+19:38:16 INFO  : 'after 3000' command is executed.
+19:38:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB72D0A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB72D0A-13722093-0"}' command is executed.
+19:38:17 INFO  : Device configured successfully with "/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/_ide/bitstream/Final_Project_BD_wrapper.bit"
+19:38:17 INFO  : Context for 'APU' is selected.
+19:38:17 INFO  : Hardware design and registers information is loaded from '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/export/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa'.
+19:38:17 INFO  : 'configparams force-mem-access 1' command is executed.
+19:38:17 INFO  : Context for 'APU' is selected.
+19:38:17 INFO  : Sourcing of '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/_ide/psinit/ps7_init.tcl' is done.
+19:38:18 INFO  : 'ps7_init' command is executed.
+19:38:18 INFO  : 'ps7_post_config' command is executed.
+19:38:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:38:18 INFO  : The application '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/Debug/Final_Project_App.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:38:18 INFO  : 'configparams force-mem-access 0' command is executed.
+19:38:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB72D0A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB72D0A-13722093-0"}
+fpga -file /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/_ide/bitstream/Final_Project_BD_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/export/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/Debug/Final_Project_App.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:38:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:38:18 INFO  : 'con' command is executed.
+19:38:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:38:18 INFO  : Launch script is exported to file '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App_system/_ide/scripts/debugger_final_project_app-default.tcl'
+19:39:17 INFO  : Disconnected from the channel tcfchan#4.
+13:21:03 INFO  : Launching XSCT server: xsct -n  -interactive /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/temp_xsdb_launch_script.tcl
+13:21:05 INFO  : Platform repository initialization has completed.
+13:21:06 INFO  : Registering command handlers for Vitis TCF services
+13:21:08 INFO  : XSCT server has started successfully.
+13:21:09 INFO  : Successfully done setting XSCT server connection channel  
+13:21:09 INFO  : plnx-install-location is set to ''
+13:21:09 INFO  : Successfully done query RDI_DATADIR 
+13:21:09 INFO  : Successfully done setting workspace for the tool. 
+13:21:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:21:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB72D0A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB72D0A-13722093-0"}' command is executed.
+13:21:23 INFO  : Device configured successfully with "/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/_ide/bitstream/Final_Project_BD_wrapper.bit"
+13:21:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:21:38 INFO  : Jtag cable 'Digilent Zybo Z7 210351AB72D0A' is selected.
+13:21:38 INFO  : 'jtag frequency' command is executed.
+13:21:38 INFO  : Context for 'APU' is selected.
+13:21:38 INFO  : System reset is completed.
+13:21:41 INFO  : 'after 3000' command is executed.
+13:21:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB72D0A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB72D0A-13722093-0"}' command is executed.
+13:21:42 INFO  : Device configured successfully with "/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/_ide/bitstream/Final_Project_BD_wrapper.bit"
+13:21:42 INFO  : Context for 'APU' is selected.
+13:21:42 INFO  : Hardware design and registers information is loaded from '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/export/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa'.
+13:21:42 INFO  : 'configparams force-mem-access 1' command is executed.
+13:21:42 INFO  : Context for 'APU' is selected.
+13:21:42 INFO  : Sourcing of '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/_ide/psinit/ps7_init.tcl' is done.
+13:21:43 INFO  : 'ps7_init' command is executed.
+13:21:43 INFO  : 'ps7_post_config' command is executed.
+13:21:43 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:21:43 INFO  : The application '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/Debug/Final_Project_App.elf' is downloaded to processor 'ps7_cortexa9_0'.
+13:21:43 INFO  : 'configparams force-mem-access 0' command is executed.
+13:21:43 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB72D0A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB72D0A-13722093-0"}
+fpga -file /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/_ide/bitstream/Final_Project_BD_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/export/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App/Debug/Final_Project_App.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+13:21:43 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:21:43 INFO  : 'con' command is executed.
+13:21:43 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+13:21:43 INFO  : Launch script is exported to file '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_App_system/_ide/scripts/debugger_final_project_app-default.tcl'

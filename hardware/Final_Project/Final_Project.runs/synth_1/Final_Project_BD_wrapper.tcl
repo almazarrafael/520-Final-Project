@@ -70,7 +70,12 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
+set_param synth.incrementalSynthesisCache ./.Xil/Vivado-6479-raf-ThinkPad/incrSyn
 set_param chipscope.maxJobs 4
+set_param checkpoint.writeSynthRtdsInDcp 1
+set_msg_config -id {Common 17-41} -limit 10000000
+set_msg_config -id {Synth 8-256} -limit 10000
+set_msg_config -id {Synth 8-638} -limit 10000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7z010clg400-1
 
@@ -97,20 +102,22 @@ OPTRACE "Adding files" START { }
 read_vhdl -library xil_defaultlib /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/hdl/Final_Project_BD_wrapper.vhd
 add_files /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.srcs/sources_1/bd/Final_Project_BD/Final_Project_BD.bd
 set_property used_in_implementation false [get_files -all /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/ip/Final_Project_BD_processing_system7_0_0/Final_Project_BD_processing_system7_0_0.xdc]
+set_property used_in_implementation false [get_files -all /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/ip/Final_Project_BD_PmodCOLOR_0_2/src/PmodCOLOR_pmod_bridge_0_0/PmodCOLOR_pmod_bridge_0_0_board.xdc]
+set_property used_in_implementation false [get_files -all /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/ip/Final_Project_BD_PmodCOLOR_0_2/src/PmodCOLOR_pmod_bridge_0_0/src/pmod_concat_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/ip/Final_Project_BD_PmodCOLOR_0_2/src/PmodCOLOR_axi_gpio_0_0/PmodCOLOR_axi_gpio_0_0_board.xdc]
+set_property used_in_implementation false [get_files -all /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/ip/Final_Project_BD_PmodCOLOR_0_2/src/PmodCOLOR_axi_gpio_0_0/PmodCOLOR_axi_gpio_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/ip/Final_Project_BD_PmodCOLOR_0_2/src/PmodCOLOR_axi_gpio_0_0/PmodCOLOR_axi_gpio_0_0.xdc]
 set_property used_in_implementation false [get_files -all /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/ip/Final_Project_BD_PmodCOLOR_0_2/src/PmodCOLOR_axi_iic_0_0/PmodCOLOR_axi_iic_0_0_board.xdc]
 set_property used_in_implementation false [get_files -all /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/ip/Final_Project_BD_PmodCOLOR_0_2/src/PmodCOLOR_axi_iic_0_0/PmodCOLOR_axi_iic_0_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/ip/Final_Project_BD_PmodCOLOR_0_2/Final_Project_BD_PmodCOLOR_0_2_board.xdc]
 set_property used_in_implementation false [get_files -all /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/ip/Final_Project_BD_PmodCOLOR_0_2/src/PmodCOLOR_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/ip/Final_Project_BD_PmodCOLOR_0_2/src/PmodCOLOR_axi_gpio_0_0/PmodCOLOR_axi_gpio_0_0_board.xdc]
-set_property used_in_implementation false [get_files -all /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/ip/Final_Project_BD_PmodCOLOR_0_2/src/PmodCOLOR_axi_gpio_0_0/PmodCOLOR_axi_gpio_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/ip/Final_Project_BD_PmodCOLOR_0_2/src/PmodCOLOR_axi_gpio_0_0/PmodCOLOR_axi_gpio_0_0.xdc]
-set_property used_in_implementation false [get_files -all /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/ip/Final_Project_BD_PmodCOLOR_0_2/src/PmodCOLOR_pmod_bridge_0_0/PmodCOLOR_pmod_bridge_0_0_board.xdc]
-set_property used_in_implementation false [get_files -all /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/ip/Final_Project_BD_PmodCOLOR_0_2/src/PmodCOLOR_pmod_bridge_0_0/src/pmod_concat_ooc.xdc]
 set_property used_in_implementation false [get_files -all /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/ip/Final_Project_BD_xbar_0/Final_Project_BD_xbar_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/ip/Final_Project_BD_rst_ps7_0_50M_2/Final_Project_BD_rst_ps7_0_50M_2_board.xdc]
 set_property used_in_implementation false [get_files -all /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/ip/Final_Project_BD_rst_ps7_0_50M_2/Final_Project_BD_rst_ps7_0_50M_2.xdc]
 set_property used_in_implementation false [get_files -all /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/ip/Final_Project_BD_rst_ps7_0_50M_2/Final_Project_BD_rst_ps7_0_50M_2_ooc.xdc]
 set_property used_in_implementation false [get_files -all /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/ip/Final_Project_BD_auto_pc_0/Final_Project_BD_auto_pc_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/ip/Final_Project_BD_axi_iic_0_0/Final_Project_BD_axi_iic_0_0_board.xdc]
+set_property used_in_implementation false [get_files -all /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/ip/Final_Project_BD_axi_iic_0_0/Final_Project_BD_axi_iic_0_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/Final_Project_BD_ooc.xdc]
 
 OPTRACE "Adding files" END { }

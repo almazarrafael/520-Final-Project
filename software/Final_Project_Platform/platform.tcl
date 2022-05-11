@@ -18,3 +18,7 @@ platform active {Final_Project_Platform}
 platform generate
 platform clean
 platform generate
+platform active {Final_Project_Platform}
+platform config -updatehw {/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project_BD_wrapper.xsa}
+platform generate -domains 
+platform generate -domains standalone_domain 

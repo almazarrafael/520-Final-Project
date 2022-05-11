@@ -1,7 +1,7 @@
 --Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2021.2 (lin64) Build 3367213 Tue Oct 19 02:47:39 MDT 2021
---Date        : Sat May  7 13:36:51 2022
+--Date        : Mon May  9 18:07:59 2022
 --Host        : raf-ThinkPad running 64-bit Ubuntu 20.04.3 LTS
 --Command     : generate_target Final_Project_BD_wrapper.bd
 --Design      : Final_Project_BD_wrapper
@@ -34,6 +34,8 @@ entity Final_Project_BD_wrapper is
     FIXED_IO_ps_clk : inout STD_LOGIC;
     FIXED_IO_ps_porb : inout STD_LOGIC;
     FIXED_IO_ps_srstb : inout STD_LOGIC;
+    IIC_0_scl_io : inout STD_LOGIC;
+    IIC_0_sda_io : inout STD_LOGIC;
     Pmod_out_0_pin10_io : inout STD_LOGIC;
     Pmod_out_0_pin1_io : inout STD_LOGIC;
     Pmod_out_0_pin2_io : inout STD_LOGIC;
@@ -48,27 +50,6 @@ end Final_Project_BD_wrapper;
 architecture STRUCTURE of Final_Project_BD_wrapper is
   component Final_Project_BD is
   port (
-    DDR_cas_n : inout STD_LOGIC;
-    DDR_cke : inout STD_LOGIC;
-    DDR_ck_n : inout STD_LOGIC;
-    DDR_ck_p : inout STD_LOGIC;
-    DDR_cs_n : inout STD_LOGIC;
-    DDR_reset_n : inout STD_LOGIC;
-    DDR_odt : inout STD_LOGIC;
-    DDR_ras_n : inout STD_LOGIC;
-    DDR_we_n : inout STD_LOGIC;
-    DDR_ba : inout STD_LOGIC_VECTOR ( 2 downto 0 );
-    DDR_addr : inout STD_LOGIC_VECTOR ( 14 downto 0 );
-    DDR_dm : inout STD_LOGIC_VECTOR ( 3 downto 0 );
-    DDR_dq : inout STD_LOGIC_VECTOR ( 31 downto 0 );
-    DDR_dqs_n : inout STD_LOGIC_VECTOR ( 3 downto 0 );
-    DDR_dqs_p : inout STD_LOGIC_VECTOR ( 3 downto 0 );
-    FIXED_IO_mio : inout STD_LOGIC_VECTOR ( 53 downto 0 );
-    FIXED_IO_ddr_vrn : inout STD_LOGIC;
-    FIXED_IO_ddr_vrp : inout STD_LOGIC;
-    FIXED_IO_ps_srstb : inout STD_LOGIC;
-    FIXED_IO_ps_clk : inout STD_LOGIC;
-    FIXED_IO_ps_porb : inout STD_LOGIC;
     Pmod_out_0_pin1_o : out STD_LOGIC;
     Pmod_out_0_pin7_i : in STD_LOGIC;
     Pmod_out_0_pin2_o : out STD_LOGIC;
@@ -92,7 +73,34 @@ architecture STRUCTURE of Final_Project_BD_wrapper is
     Pmod_out_0_pin2_t : out STD_LOGIC;
     Pmod_out_0_pin7_o : out STD_LOGIC;
     Pmod_out_0_pin3_t : out STD_LOGIC;
-    Pmod_out_0_pin8_o : out STD_LOGIC
+    Pmod_out_0_pin8_o : out STD_LOGIC;
+    DDR_cas_n : inout STD_LOGIC;
+    DDR_cke : inout STD_LOGIC;
+    DDR_ck_n : inout STD_LOGIC;
+    DDR_ck_p : inout STD_LOGIC;
+    DDR_cs_n : inout STD_LOGIC;
+    DDR_reset_n : inout STD_LOGIC;
+    DDR_odt : inout STD_LOGIC;
+    DDR_ras_n : inout STD_LOGIC;
+    DDR_we_n : inout STD_LOGIC;
+    DDR_ba : inout STD_LOGIC_VECTOR ( 2 downto 0 );
+    DDR_addr : inout STD_LOGIC_VECTOR ( 14 downto 0 );
+    DDR_dm : inout STD_LOGIC_VECTOR ( 3 downto 0 );
+    DDR_dq : inout STD_LOGIC_VECTOR ( 31 downto 0 );
+    DDR_dqs_n : inout STD_LOGIC_VECTOR ( 3 downto 0 );
+    DDR_dqs_p : inout STD_LOGIC_VECTOR ( 3 downto 0 );
+    FIXED_IO_mio : inout STD_LOGIC_VECTOR ( 53 downto 0 );
+    FIXED_IO_ddr_vrn : inout STD_LOGIC;
+    FIXED_IO_ddr_vrp : inout STD_LOGIC;
+    FIXED_IO_ps_srstb : inout STD_LOGIC;
+    FIXED_IO_ps_clk : inout STD_LOGIC;
+    FIXED_IO_ps_porb : inout STD_LOGIC;
+    IIC_0_scl_i : in STD_LOGIC;
+    IIC_0_scl_o : out STD_LOGIC;
+    IIC_0_scl_t : out STD_LOGIC;
+    IIC_0_sda_i : in STD_LOGIC;
+    IIC_0_sda_o : out STD_LOGIC;
+    IIC_0_sda_t : out STD_LOGIC
   );
   end component Final_Project_BD;
   component IOBUF is
@@ -103,6 +111,12 @@ architecture STRUCTURE of Final_Project_BD_wrapper is
     IO : inout STD_LOGIC
   );
   end component IOBUF;
+  signal IIC_0_scl_i : STD_LOGIC;
+  signal IIC_0_scl_o : STD_LOGIC;
+  signal IIC_0_scl_t : STD_LOGIC;
+  signal IIC_0_sda_i : STD_LOGIC;
+  signal IIC_0_sda_o : STD_LOGIC;
+  signal IIC_0_sda_t : STD_LOGIC;
   signal Pmod_out_0_pin10_i : STD_LOGIC;
   signal Pmod_out_0_pin10_o : STD_LOGIC;
   signal Pmod_out_0_pin10_t : STD_LOGIC;
@@ -151,6 +165,12 @@ Final_Project_BD_i: component Final_Project_BD
       FIXED_IO_ps_clk => FIXED_IO_ps_clk,
       FIXED_IO_ps_porb => FIXED_IO_ps_porb,
       FIXED_IO_ps_srstb => FIXED_IO_ps_srstb,
+      IIC_0_scl_i => IIC_0_scl_i,
+      IIC_0_scl_o => IIC_0_scl_o,
+      IIC_0_scl_t => IIC_0_scl_t,
+      IIC_0_sda_i => IIC_0_sda_i,
+      IIC_0_sda_o => IIC_0_sda_o,
+      IIC_0_sda_t => IIC_0_sda_t,
       Pmod_out_0_pin10_i => Pmod_out_0_pin10_i,
       Pmod_out_0_pin10_o => Pmod_out_0_pin10_o,
       Pmod_out_0_pin10_t => Pmod_out_0_pin10_t,
@@ -175,6 +195,20 @@ Final_Project_BD_i: component Final_Project_BD
       Pmod_out_0_pin9_i => Pmod_out_0_pin9_i,
       Pmod_out_0_pin9_o => Pmod_out_0_pin9_o,
       Pmod_out_0_pin9_t => Pmod_out_0_pin9_t
+    );
+IIC_0_scl_iobuf: component IOBUF
+     port map (
+      I => IIC_0_scl_o,
+      IO => IIC_0_scl_io,
+      O => IIC_0_scl_i,
+      T => IIC_0_scl_t
+    );
+IIC_0_sda_iobuf: component IOBUF
+     port map (
+      I => IIC_0_sda_o,
+      IO => IIC_0_sda_io,
+      O => IIC_0_sda_i,
+      T => IIC_0_sda_t
     );
 Pmod_out_0_pin10_iobuf: component IOBUF
      port map (

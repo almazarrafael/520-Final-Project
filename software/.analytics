@@ -10,3 +10,25 @@ timestamp=[2022-05-07 15:07:52], mode=BUILD, duration=0:00:00.393, duration_ms=3
 timestamp=[2022-05-07 15:08:00], mode=BUILD, duration=0:00:07.355, duration_ms=7355, data={name=Final_Project_App_system, configuration=Debug, clean_build=false}
 timestamp=[2022-05-07 15:12:07], mode=BUILD, duration=0:00:00.435, duration_ms=435, data={name=Final_Project_App, configuration=Debug, clean_build=false}
 timestamp=[2022-05-07 15:12:15], mode=BUILD, duration=0:00:07.600, duration_ms=7600, data={name=Final_Project_App_system, configuration=Debug, clean_build=false}
+timestamp=[2022-05-09 17:48:14], mode=WORKBENCH_START, duration=0:00:07.347, duration_ms=7347, data={}
+timestamp=[2022-05-09 17:48:14], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.073, duration_ms=73, data={}
+timestamp=[2022-05-09 17:48:16], mode=WORKBENCH_UI_INIT, duration=0:00:01.823, duration_ms=1823, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Final_Project_App,Final_Project_App_system,Final_Project_Platform,RemoteSystemsTempFiles}
+timestamp=[2022-05-09 17:51:17], mode=BUILD, duration=0:00:00.589, duration_ms=589, data={name=Final_Project_App, configuration=Debug, clean_build=false}
+timestamp=[2022-05-09 18:37:42], mode=PLATFORM_GENERATION, duration=0:00:09.064, duration_ms=9064, data={name=Final_Project_Platform}
+timestamp=[2022-05-09 18:37:45], mode=BUILD, duration=0:00:00.346, duration_ms=346, data={name=Final_Project_App, configuration=Debug, clean_build=false}
+timestamp=[2022-05-09 18:38:25], mode=BUILD, duration=0:00:00.444, duration_ms=444, data={name=Final_Project_App, configuration=Debug, clean_build=false}
+timestamp=[2022-05-09 18:38:45], mode=BUILD, duration=0:00:00.188, duration_ms=188, data={name=Final_Project_App, configuration=Debug, clean_build=false}
+timestamp=[2022-05-09 18:39:32], mode=BUILD, duration=0:00:00.392, duration_ms=392, data={name=Final_Project_App, configuration=Debug, clean_build=false}
+timestamp=[2022-05-09 18:40:17], mode=BUILD, duration=0:00:00.283, duration_ms=283, data={name=Final_Project_App, configuration=Debug, clean_build=false}
+timestamp=[2022-05-09 18:42:41], mode=BUILD, duration=0:00:00.288, duration_ms=288, data={name=Final_Project_App, configuration=Debug, clean_build=false}
+timestamp=[2022-05-09 18:43:07], mode=BUILD, duration=0:00:00.438, duration_ms=438, data={name=Final_Project_App, configuration=Debug, clean_build=false}
+timestamp=[2022-05-09 19:12:24], mode=WORKBENCH_START, duration=0:00:09.133, duration_ms=9133, data={}
+timestamp=[2022-05-09 19:12:24], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.050, duration_ms=50, data={}
+timestamp=[2022-05-09 19:12:26], mode=WORKBENCH_UI_INIT, duration=0:00:02.166, duration_ms=2166, data={editors_count=6, platform_editors_count=3, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Final_Project_App,Final_Project_App_system,Final_Project_Platform,RemoteSystemsTempFiles}
+timestamp=[2022-05-09 19:15:09], mode=PLATFORM_GENERATION, duration=0:00:09.030, duration_ms=9030, data={name=Final_Project_Platform}
+timestamp=[2022-05-09 19:15:11], mode=BUILD, duration=0:00:00.438, duration_ms=438, data={name=Final_Project_App, configuration=Debug, clean_build=false}
+timestamp=[2022-05-09 19:16:19], mode=BUILD, duration=0:00:00.381, duration_ms=381, data={name=Final_Project_App, configuration=Debug, clean_build=false}
+timestamp=[2022-05-09 19:37:44], mode=BUILD, duration=0:00:00.379, duration_ms=379, data={name=Final_Project_App, configuration=Debug, clean_build=false}
+timestamp=[2022-05-11 13:21:05], mode=WORKBENCH_START, duration=0:00:09.762, duration_ms=9762, data={}
+timestamp=[2022-05-11 13:21:05], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.034, duration_ms=34, data={}
+timestamp=[2022-05-11 13:21:07], mode=WORKBENCH_UI_INIT, duration=0:00:02.003, duration_ms=2003, data={editors_count=6, platform_editors_count=3, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Final_Project_App,Final_Project_App_system,Final_Project_Platform,RemoteSystemsTempFiles}

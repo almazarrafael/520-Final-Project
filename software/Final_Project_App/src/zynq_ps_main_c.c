@@ -23,7 +23,6 @@
 #include "PmodCOLOR.h"
 #include "sleep.h"
 #include "xuartps.h"
-#include "xil_printf.h"
 
 typedef struct {
 	COLOR_Data min, max;

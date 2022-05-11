@@ -2,13 +2,13 @@
 # Vivado v2021.2 (64-bit)
 # SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
 # IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
-# Start of session at: Sat May  7 15:00:39 2022
-# Process ID: 48441
+# Start of session at: Mon May  9 18:11:21 2022
+# Process ID: 171484
 # Current directory: /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.runs/synth_1
 # Command line: vivado -log Final_Project_BD_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Final_Project_BD_wrapper.tcl
 # Log file: /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.runs/synth_1/Final_Project_BD_wrapper.vds
 # Journal file: /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.runs/synth_1/vivado.jou
-# Running On: raf-ThinkPad, OS: Linux, CPU Frequency: 3002.458 MHz, CPU Physical cores: 16, Host memory: 32843 MB
+# Running On: raf-ThinkPad, OS: Linux, CPU Frequency: 1400.000 MHz, CPU Physical cores: 16, Host memory: 32843 MB
 #-----------------------------------------------------------
 source Final_Project_BD_wrapper.tcl -notrace
 INFO: [IP_Flow 19-234] Refreshing IP repositories
@@ -27,45 +27,55 @@ WARNING: [Designutils 20-4072] Reference run did not run incremental synthesis b
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 48497
+INFO: [Synth 8-7075] Helper process launched with PID 171511
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2750.309 ; gain = 0.000 ; free physical = 15867 ; free virtual = 57242
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2747.305 ; gain = 0.000 ; free physical = 11543 ; free virtual = 55203
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'Final_Project_BD_wrapper' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/hdl/Final_Project_BD_wrapper.vhd:48]
-INFO: [Synth 8-3491] module 'Final_Project_BD' declared at '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/synth/Final_Project_BD.vhd:1077' bound to instance 'Final_Project_BD_i' of component 'Final_Project_BD' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/hdl/Final_Project_BD_wrapper.vhd:131]
-INFO: [Synth 8-638] synthesizing module 'Final_Project_BD' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/synth/Final_Project_BD.vhd:1131]
-INFO: [Synth 8-3491] module 'Final_Project_BD_PmodCOLOR_0_2' declared at '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.runs/synth_1/.Xil/Vivado-48441-raf-ThinkPad/realtime/Final_Project_BD_PmodCOLOR_0_2_stub.vhdl:5' bound to instance 'PmodCOLOR_0' of component 'Final_Project_BD_PmodCOLOR_0_2' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/synth/Final_Project_BD.vhd:1483]
-INFO: [Synth 8-638] synthesizing module 'Final_Project_BD_PmodCOLOR_0_2' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.runs/synth_1/.Xil/Vivado-48441-raf-ThinkPad/realtime/Final_Project_BD_PmodCOLOR_0_2_stub.vhdl:73]
-INFO: [Synth 8-3491] module 'Final_Project_BD_processing_system7_0_0' declared at '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.runs/synth_1/.Xil/Vivado-48441-raf-ThinkPad/realtime/Final_Project_BD_processing_system7_0_0_stub.vhdl:5' bound to instance 'processing_system7_0' of component 'Final_Project_BD_processing_system7_0_0' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/synth/Final_Project_BD.vhd:1548]
-INFO: [Synth 8-638] synthesizing module 'Final_Project_BD_processing_system7_0_0' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.runs/synth_1/.Xil/Vivado-48441-raf-ThinkPad/realtime/Final_Project_BD_processing_system7_0_0_stub.vhdl:76]
-INFO: [Synth 8-638] synthesizing module 'Final_Project_BD_ps7_0_axi_periph_2' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/synth/Final_Project_BD.vhd:617]
+INFO: [Synth 8-638] synthesizing module 'Final_Project_BD_wrapper' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/hdl/Final_Project_BD_wrapper.vhd:50]
+INFO: [Synth 8-3491] module 'Final_Project_BD' declared at '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/synth/Final_Project_BD.vhd:1306' bound to instance 'Final_Project_BD_i' of component 'Final_Project_BD' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/hdl/Final_Project_BD_wrapper.vhd:145]
+INFO: [Synth 8-638] synthesizing module 'Final_Project_BD' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/synth/Final_Project_BD.vhd:1366]
+INFO: [Synth 8-3491] module 'Final_Project_BD_PmodCOLOR_0_2' declared at '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.runs/synth_1/.Xil/Vivado-171484-raf-ThinkPad/realtime/Final_Project_BD_PmodCOLOR_0_2_stub.vhdl:5' bound to instance 'PmodCOLOR_0' of component 'Final_Project_BD_PmodCOLOR_0_2' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/synth/Final_Project_BD.vhd:1786]
+INFO: [Synth 8-638] synthesizing module 'Final_Project_BD_PmodCOLOR_0_2' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.runs/synth_1/.Xil/Vivado-171484-raf-ThinkPad/realtime/Final_Project_BD_PmodCOLOR_0_2_stub.vhdl:73]
+INFO: [Synth 8-3491] module 'Final_Project_BD_axi_iic_0_0' declared at '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.runs/synth_1/.Xil/Vivado-171484-raf-ThinkPad/realtime/Final_Project_BD_axi_iic_0_0_stub.vhdl:5' bound to instance 'axi_iic_0' of component 'Final_Project_BD_axi_iic_0_0' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/synth/Final_Project_BD.vhd:1851]
+INFO: [Synth 8-638] synthesizing module 'Final_Project_BD_axi_iic_0_0' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.runs/synth_1/.Xil/Vivado-171484-raf-ThinkPad/realtime/Final_Project_BD_axi_iic_0_0_stub.vhdl:38]
+INFO: [Synth 8-3491] module 'Final_Project_BD_processing_system7_0_0' declared at '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.runs/synth_1/.Xil/Vivado-171484-raf-ThinkPad/realtime/Final_Project_BD_processing_system7_0_0_stub.vhdl:5' bound to instance 'processing_system7_0' of component 'Final_Project_BD_processing_system7_0_0' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/synth/Final_Project_BD.vhd:1881]
+INFO: [Synth 8-638] synthesizing module 'Final_Project_BD_processing_system7_0_0' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.runs/synth_1/.Xil/Vivado-171484-raf-ThinkPad/realtime/Final_Project_BD_processing_system7_0_0_stub.vhdl:76]
+INFO: [Synth 8-638] synthesizing module 'Final_Project_BD_ps7_0_axi_periph_2' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/synth/Final_Project_BD.vhd:737]
 INFO: [Synth 8-638] synthesizing module 'm00_couplers_imp_1GRC0PH' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/synth/Final_Project_BD.vhd:57]
 INFO: [Synth 8-256] done synthesizing module 'm00_couplers_imp_1GRC0PH' (1#1) [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/synth/Final_Project_BD.vhd:57]
 INFO: [Synth 8-638] synthesizing module 'm01_couplers_imp_OR77YA' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/synth/Final_Project_BD.vhd:158]
 INFO: [Synth 8-256] done synthesizing module 'm01_couplers_imp_OR77YA' (2#1) [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/synth/Final_Project_BD.vhd:158]
-INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_1C46K0Z' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/synth/Final_Project_BD.vhd:282]
-INFO: [Synth 8-3491] module 'Final_Project_BD_auto_pc_0' declared at '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.runs/synth_1/.Xil/Vivado-48441-raf-ThinkPad/realtime/Final_Project_BD_auto_pc_0_stub.vhdl:5' bound to instance 'auto_pc' of component 'Final_Project_BD_auto_pc_0' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/synth/Final_Project_BD.vhd:465]
-INFO: [Synth 8-638] synthesizing module 'Final_Project_BD_auto_pc_0' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.runs/synth_1/.Xil/Vivado-48441-raf-ThinkPad/realtime/Final_Project_BD_auto_pc_0_stub.vhdl:70]
-INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_1C46K0Z' (3#1) [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/synth/Final_Project_BD.vhd:282]
-INFO: [Synth 8-3491] module 'Final_Project_BD_xbar_0' declared at '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.runs/synth_1/.Xil/Vivado-48441-raf-ThinkPad/realtime/Final_Project_BD_xbar_0_stub.vhdl:5' bound to instance 'xbar' of component 'Final_Project_BD_xbar_0' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/synth/Final_Project_BD.vhd:1012]
-INFO: [Synth 8-638] synthesizing module 'Final_Project_BD_xbar_0' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.runs/synth_1/.Xil/Vivado-48441-raf-ThinkPad/realtime/Final_Project_BD_xbar_0_stub.vhdl:51]
-INFO: [Synth 8-256] done synthesizing module 'Final_Project_BD_ps7_0_axi_periph_2' (4#1) [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/synth/Final_Project_BD.vhd:617]
-INFO: [Synth 8-3491] module 'Final_Project_BD_rst_ps7_0_50M_2' declared at '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.runs/synth_1/.Xil/Vivado-48441-raf-ThinkPad/realtime/Final_Project_BD_rst_ps7_0_50M_2_stub.vhdl:5' bound to instance 'rst_ps7_0_50M' of component 'Final_Project_BD_rst_ps7_0_50M_2' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/synth/Final_Project_BD.vhd:1699]
-INFO: [Synth 8-638] synthesizing module 'Final_Project_BD_rst_ps7_0_50M_2' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.runs/synth_1/.Xil/Vivado-48441-raf-ThinkPad/realtime/Final_Project_BD_rst_ps7_0_50M_2_stub.vhdl:21]
-INFO: [Synth 8-256] done synthesizing module 'Final_Project_BD' (5#1) [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/synth/Final_Project_BD.vhd:1131]
-INFO: [Synth 8-3491] module 'IOBUF' declared at '/tools/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:59735' bound to instance 'Pmod_out_0_pin10_iobuf' of component 'IOBUF' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/hdl/Final_Project_BD_wrapper.vhd:179]
+INFO: [Synth 8-638] synthesizing module 'm02_couplers_imp_1BKFAII' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/synth/Final_Project_BD.vhd:259]
+INFO: [Synth 8-256] done synthesizing module 'm02_couplers_imp_1BKFAII' (3#1) [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/synth/Final_Project_BD.vhd:259]
+INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_1C46K0Z' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/synth/Final_Project_BD.vhd:383]
+INFO: [Synth 8-3491] module 'Final_Project_BD_auto_pc_0' declared at '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.runs/synth_1/.Xil/Vivado-171484-raf-ThinkPad/realtime/Final_Project_BD_auto_pc_0_stub.vhdl:5' bound to instance 'auto_pc' of component 'Final_Project_BD_auto_pc_0' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/synth/Final_Project_BD.vhd:566]
+INFO: [Synth 8-638] synthesizing module 'Final_Project_BD_auto_pc_0' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.runs/synth_1/.Xil/Vivado-171484-raf-ThinkPad/realtime/Final_Project_BD_auto_pc_0_stub.vhdl:70]
+INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_1C46K0Z' (4#1) [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/synth/Final_Project_BD.vhd:383]
+INFO: [Synth 8-3491] module 'Final_Project_BD_xbar_0' declared at '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.runs/synth_1/.Xil/Vivado-171484-raf-ThinkPad/realtime/Final_Project_BD_xbar_0_stub.vhdl:5' bound to instance 'xbar' of component 'Final_Project_BD_xbar_0' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/synth/Final_Project_BD.vhd:1224]
+INFO: [Synth 8-638] synthesizing module 'Final_Project_BD_xbar_0' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.runs/synth_1/.Xil/Vivado-171484-raf-ThinkPad/realtime/Final_Project_BD_xbar_0_stub.vhdl:51]
+INFO: [Synth 8-256] done synthesizing module 'Final_Project_BD_ps7_0_axi_periph_2' (5#1) [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/synth/Final_Project_BD.vhd:737]
+INFO: [Synth 8-3491] module 'Final_Project_BD_rst_ps7_0_50M_2' declared at '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.runs/synth_1/.Xil/Vivado-171484-raf-ThinkPad/realtime/Final_Project_BD_rst_ps7_0_50M_2_stub.vhdl:5' bound to instance 'rst_ps7_0_50M' of component 'Final_Project_BD_rst_ps7_0_50M_2' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/synth/Final_Project_BD.vhd:2051]
+INFO: [Synth 8-638] synthesizing module 'Final_Project_BD_rst_ps7_0_50M_2' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.runs/synth_1/.Xil/Vivado-171484-raf-ThinkPad/realtime/Final_Project_BD_rst_ps7_0_50M_2_stub.vhdl:21]
+INFO: [Synth 8-256] done synthesizing module 'Final_Project_BD' (6#1) [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/synth/Final_Project_BD.vhd:1366]
+INFO: [Synth 8-3491] module 'IOBUF' declared at '/tools/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:59735' bound to instance 'IIC_0_scl_iobuf' of component 'IOBUF' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/hdl/Final_Project_BD_wrapper.vhd:199]
 INFO: [Synth 8-6157] synthesizing module 'IOBUF' [/tools/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:59735]
-INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (6#1) [/tools/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:59735]
-INFO: [Synth 8-3491] module 'IOBUF' declared at '/tools/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:59735' bound to instance 'Pmod_out_0_pin1_iobuf' of component 'IOBUF' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/hdl/Final_Project_BD_wrapper.vhd:186]
-INFO: [Synth 8-3491] module 'IOBUF' declared at '/tools/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:59735' bound to instance 'Pmod_out_0_pin2_iobuf' of component 'IOBUF' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/hdl/Final_Project_BD_wrapper.vhd:193]
-INFO: [Synth 8-3491] module 'IOBUF' declared at '/tools/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:59735' bound to instance 'Pmod_out_0_pin3_iobuf' of component 'IOBUF' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/hdl/Final_Project_BD_wrapper.vhd:200]
-INFO: [Synth 8-3491] module 'IOBUF' declared at '/tools/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:59735' bound to instance 'Pmod_out_0_pin4_iobuf' of component 'IOBUF' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/hdl/Final_Project_BD_wrapper.vhd:207]
-INFO: [Synth 8-3491] module 'IOBUF' declared at '/tools/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:59735' bound to instance 'Pmod_out_0_pin7_iobuf' of component 'IOBUF' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/hdl/Final_Project_BD_wrapper.vhd:214]
-INFO: [Synth 8-3491] module 'IOBUF' declared at '/tools/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:59735' bound to instance 'Pmod_out_0_pin8_iobuf' of component 'IOBUF' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/hdl/Final_Project_BD_wrapper.vhd:221]
-INFO: [Synth 8-3491] module 'IOBUF' declared at '/tools/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:59735' bound to instance 'Pmod_out_0_pin9_iobuf' of component 'IOBUF' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/hdl/Final_Project_BD_wrapper.vhd:228]
-INFO: [Synth 8-256] done synthesizing module 'Final_Project_BD_wrapper' (7#1) [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/hdl/Final_Project_BD_wrapper.vhd:48]
+INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (7#1) [/tools/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:59735]
+INFO: [Synth 8-3491] module 'IOBUF' declared at '/tools/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:59735' bound to instance 'IIC_0_sda_iobuf' of component 'IOBUF' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/hdl/Final_Project_BD_wrapper.vhd:206]
+INFO: [Synth 8-3491] module 'IOBUF' declared at '/tools/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:59735' bound to instance 'Pmod_out_0_pin10_iobuf' of component 'IOBUF' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/hdl/Final_Project_BD_wrapper.vhd:213]
+INFO: [Synth 8-3491] module 'IOBUF' declared at '/tools/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:59735' bound to instance 'Pmod_out_0_pin1_iobuf' of component 'IOBUF' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/hdl/Final_Project_BD_wrapper.vhd:220]
+INFO: [Synth 8-3491] module 'IOBUF' declared at '/tools/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:59735' bound to instance 'Pmod_out_0_pin2_iobuf' of component 'IOBUF' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/hdl/Final_Project_BD_wrapper.vhd:227]
+INFO: [Synth 8-3491] module 'IOBUF' declared at '/tools/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:59735' bound to instance 'Pmod_out_0_pin3_iobuf' of component 'IOBUF' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/hdl/Final_Project_BD_wrapper.vhd:234]
+INFO: [Synth 8-3491] module 'IOBUF' declared at '/tools/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:59735' bound to instance 'Pmod_out_0_pin4_iobuf' of component 'IOBUF' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/hdl/Final_Project_BD_wrapper.vhd:241]
+INFO: [Synth 8-3491] module 'IOBUF' declared at '/tools/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:59735' bound to instance 'Pmod_out_0_pin7_iobuf' of component 'IOBUF' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/hdl/Final_Project_BD_wrapper.vhd:248]
+INFO: [Synth 8-3491] module 'IOBUF' declared at '/tools/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:59735' bound to instance 'Pmod_out_0_pin8_iobuf' of component 'IOBUF' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/hdl/Final_Project_BD_wrapper.vhd:255]
+INFO: [Synth 8-3491] module 'IOBUF' declared at '/tools/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:59735' bound to instance 'Pmod_out_0_pin9_iobuf' of component 'IOBUF' [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/hdl/Final_Project_BD_wrapper.vhd:262]
+INFO: [Synth 8-256] done synthesizing module 'Final_Project_BD_wrapper' (8#1) [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/hdl/Final_Project_BD_wrapper.vhd:50]
 WARNING: [Synth 8-7129] Port M_ACLK in module s00_couplers_imp_1C46K0Z is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M_ARESETN in module s00_couplers_imp_1C46K0Z is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ACLK in module m02_couplers_imp_1BKFAII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module m02_couplers_imp_1BKFAII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ACLK in module m02_couplers_imp_1BKFAII is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ARESETN in module m02_couplers_imp_1BKFAII is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M_ACLK in module m01_couplers_imp_OR77YA is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M_ARESETN in module m01_couplers_imp_OR77YA is either unconnected or has no load
 WARNING: [Synth 8-7129] Port S_ACLK in module m01_couplers_imp_OR77YA is either unconnected or has no load
@@ -78,22 +88,24 @@ WARNING: [Synth 8-7129] Port M00_ACLK in module Final_Project_BD_ps7_0_axi_perip
 WARNING: [Synth 8-7129] Port M00_ARESETN in module Final_Project_BD_ps7_0_axi_periph_2 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M01_ACLK in module Final_Project_BD_ps7_0_axi_periph_2 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M01_ARESETN in module Final_Project_BD_ps7_0_axi_periph_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M02_ACLK in module Final_Project_BD_ps7_0_axi_periph_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M02_ARESETN in module Final_Project_BD_ps7_0_axi_periph_2 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port S00_ACLK in module Final_Project_BD_ps7_0_axi_periph_2 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port S00_ARESETN in module Final_Project_BD_ps7_0_axi_periph_2 is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2750.309 ; gain = 0.000 ; free physical = 15546 ; free virtual = 56921
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2747.305 ; gain = 0.000 ; free physical = 11126 ; free virtual = 54790
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2750.309 ; gain = 0.000 ; free physical = 16411 ; free virtual = 57787
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2747.305 ; gain = 0.000 ; free physical = 12044 ; free virtual = 55708
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2750.309 ; gain = 0.000 ; free physical = 16411 ; free virtual = 57787
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2747.305 ; gain = 0.000 ; free physical = 12044 ; free virtual = 55708
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2750.309 ; gain = 0.000 ; free physical = 16403 ; free virtual = 57778
-INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2747.305 ; gain = 0.000 ; free physical = 12041 ; free virtual = 55705
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
@@ -109,31 +121,54 @@ Parsing XDC File [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Projec
 Finished Parsing XDC File [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/ip/Final_Project_BD_auto_pc_0/Final_Project_BD_auto_pc_0/Final_Project_BD_auto_pc_0_in_context.xdc] for cell 'Final_Project_BD_i/ps7_0_axi_periph/s00_couplers/auto_pc'
 Parsing XDC File [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/ip/Final_Project_BD_rst_ps7_0_50M_2/Final_Project_BD_rst_ps7_0_50M_2/Final_Project_BD_rst_ps7_0_50M_2_in_context.xdc] for cell 'Final_Project_BD_i/rst_ps7_0_50M'
 Finished Parsing XDC File [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/ip/Final_Project_BD_rst_ps7_0_50M_2/Final_Project_BD_rst_ps7_0_50M_2/Final_Project_BD_rst_ps7_0_50M_2_in_context.xdc] for cell 'Final_Project_BD_i/rst_ps7_0_50M'
+Parsing XDC File [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/ip/Final_Project_BD_axi_iic_0_0/Final_Project_BD_axi_iic_0_0/Final_Project_BD_axi_iic_0_0_in_context.xdc] for cell 'Final_Project_BD_i/axi_iic_0'
+Finished Parsing XDC File [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.gen/sources_1/bd/Final_Project_BD/ip/Final_Project_BD_axi_iic_0_0/Final_Project_BD_axi_iic_0_0/Final_Project_BD_axi_iic_0_0_in_context.xdc] for cell 'Final_Project_BD_i/axi_iic_0'
 Parsing XDC File [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.srcs/constrs_1/new/Zybo.xdc]
+WARNING: [Vivado 12-584] No ports matched 'iic_rtl_scl_io'. [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.srcs/constrs_1/new/Zybo.xdc:18]
+WARNING: [Vivado 12-584] No ports matched 'iic_rtl_sda_io'. [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.srcs/constrs_1/new/Zybo.xdc:19]
+WARNING: [Vivado 12-584] No ports matched 'iic_rtl_scl_io'. [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.srcs/constrs_1/new/Zybo.xdc:21]
+WARNING: [Vivado 12-584] No ports matched 'iic_rtl_sda_io'. [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.srcs/constrs_1/new/Zybo.xdc:22]
+WARNING: [Vivado 12-584] No ports matched 'iic_rtl_sda_io'. [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.srcs/constrs_1/new/Zybo.xdc:23]
+WARNING: [Vivado 12-584] No ports matched 'iic_rtl_scl_io'. [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.srcs/constrs_1/new/Zybo.xdc:24]
+WARNING: [Vivado 12-584] No ports matched 'uart_rtl_baudoutn'. [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.srcs/constrs_1/new/Zybo.xdc:26]
+WARNING: [Vivado 12-584] No ports matched 'uart_rtl_ctsn'. [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.srcs/constrs_1/new/Zybo.xdc:27]
+WARNING: [Vivado 12-584] No ports matched 'uart_rtl_dcdn'. [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.srcs/constrs_1/new/Zybo.xdc:28]
+WARNING: [Vivado 12-584] No ports matched 'uart_rtl_ddis'. [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.srcs/constrs_1/new/Zybo.xdc:29]
+WARNING: [Vivado 12-584] No ports matched 'uart_rtl_dsrn'. [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.srcs/constrs_1/new/Zybo.xdc:30]
+WARNING: [Vivado 12-584] No ports matched 'uart_rtl_dtrn'. [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.srcs/constrs_1/new/Zybo.xdc:31]
+WARNING: [Vivado 12-584] No ports matched 'uart_rtl_out1n'. [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.srcs/constrs_1/new/Zybo.xdc:32]
+WARNING: [Vivado 12-584] No ports matched 'uart_rtl_out2n'. [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.srcs/constrs_1/new/Zybo.xdc:33]
+WARNING: [Vivado 12-584] No ports matched 'uart_rtl_ri'. [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.srcs/constrs_1/new/Zybo.xdc:34]
+WARNING: [Vivado 12-584] No ports matched 'uart_rtl_rtsn'. [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.srcs/constrs_1/new/Zybo.xdc:35]
+WARNING: [Vivado 12-584] No ports matched 'uart_rtl_rxd'. [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.srcs/constrs_1/new/Zybo.xdc:36]
+WARNING: [Vivado 12-584] No ports matched 'uart_rtl_rxrdyn'. [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.srcs/constrs_1/new/Zybo.xdc:37]
+WARNING: [Vivado 12-584] No ports matched 'uart_rtl_txd'. [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.srcs/constrs_1/new/Zybo.xdc:38]
+WARNING: [Vivado 12-584] No ports matched 'uart_rtl_txrdyn'. [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.srcs/constrs_1/new/Zybo.xdc:39]
 Finished Parsing XDC File [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.srcs/constrs_1/new/Zybo.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.srcs/constrs_1/new/Zybo.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/Final_Project_BD_wrapper_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.srcs/constrs_1/new/Zybo.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Final_Project_BD_wrapper_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/Final_Project_BD_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Parsing XDC File [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.runs/synth_1/dont_touch.xdc]
 Finished Parsing XDC File [/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2814.074 ; gain = 0.000 ; free physical = 16388 ; free virtual = 57760
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2811.070 ; gain = 0.000 ; free physical = 11963 ; free virtual = 55627
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 8 instances were transformed.
-  IOBUF => IOBUF (IBUF, OBUFT): 8 instances
+  A total of 10 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 10 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2814.074 ; gain = 0.000 ; free physical = 16388 ; free virtual = 57760
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2811.070 ; gain = 0.000 ; free physical = 11963 ; free virtual = 55627
 WARNING: [Designutils 20-4072] Reference run did not run incremental synthesis because the design is too small; reverting to default synthesis
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2814.074 ; gain = 63.766 ; free physical = 16461 ; free virtual = 57832
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2811.070 ; gain = 63.766 ; free physical = 12038 ; free virtual = 55699
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z010clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2814.074 ; gain = 63.766 ; free physical = 16461 ; free virtual = 57832
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2811.070 ; gain = 63.766 ; free physical = 12038 ; free virtual = 55699
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -405,11 +440,12 @@ Applied set_property KEEP_HIERARCHY = SOFT for Final_Project_BD_i/ps7_0_axi_peri
 Applied set_property KEEP_HIERARCHY = SOFT for Final_Project_BD_i/ps7_0_axi_periph/s00_couplers/auto_pc. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for Final_Project_BD_i/ps7_0_axi_periph. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for Final_Project_BD_i/rst_ps7_0_50M. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for Final_Project_BD_i/axi_iic_0. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2814.074 ; gain = 63.766 ; free physical = 16461 ; free virtual = 57832
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2811.070 ; gain = 63.766 ; free physical = 12039 ; free virtual = 55700
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2814.074 ; gain = 63.766 ; free physical = 16460 ; free virtual = 57832
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2811.070 ; gain = 63.766 ; free physical = 12038 ; free virtual = 55700
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -435,28 +471,30 @@ WARNING: [Synth 8-7129] Port M00_ACLK in module Final_Project_BD_ps7_0_axi_perip
 WARNING: [Synth 8-7129] Port M00_ARESETN in module Final_Project_BD_ps7_0_axi_periph_2 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M01_ACLK in module Final_Project_BD_ps7_0_axi_periph_2 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port M01_ARESETN in module Final_Project_BD_ps7_0_axi_periph_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M02_ACLK in module Final_Project_BD_ps7_0_axi_periph_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M02_ARESETN in module Final_Project_BD_ps7_0_axi_periph_2 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port S00_ACLK in module Final_Project_BD_ps7_0_axi_periph_2 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port S00_ARESETN in module Final_Project_BD_ps7_0_axi_periph_2 is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2814.074 ; gain = 63.766 ; free physical = 16461 ; free virtual = 57837
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2811.070 ; gain = 63.766 ; free physical = 12033 ; free virtual = 55699
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 2814.074 ; gain = 63.766 ; free physical = 16341 ; free virtual = 57716
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 2811.070 ; gain = 63.766 ; free physical = 11915 ; free virtual = 55581
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 2814.074 ; gain = 63.766 ; free physical = 16341 ; free virtual = 57716
+Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 2811.070 ; gain = 63.766 ; free physical = 11915 ; free virtual = 55581
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 2814.074 ; gain = 63.766 ; free physical = 16340 ; free virtual = 57716
+Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 2811.070 ; gain = 63.766 ; free physical = 11913 ; free virtual = 55579
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -474,37 +512,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2814.074 ; gain = 63.766 ; free physical = 16336 ; free virtual = 57714
+Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2811.070 ; gain = 63.766 ; free physical = 11913 ; free virtual = 55579
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2814.074 ; gain = 63.766 ; free physical = 16336 ; free virtual = 57714
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2811.070 ; gain = 63.766 ; free physical = 11913 ; free virtual = 55579
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2814.074 ; gain = 63.766 ; free physical = 16336 ; free virtual = 57714
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2811.070 ; gain = 63.766 ; free physical = 11913 ; free virtual = 55579
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2814.074 ; gain = 63.766 ; free physical = 16336 ; free virtual = 57714
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2811.070 ; gain = 63.766 ; free physical = 11913 ; free virtual = 55579
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2814.074 ; gain = 63.766 ; free physical = 16336 ; free virtual = 57714
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2811.070 ; gain = 63.766 ; free physical = 11913 ; free virtual = 55579
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2814.074 ; gain = 63.766 ; free physical = 16336 ; free virtual = 57714
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2811.070 ; gain = 63.766 ; free physical = 11913 ; free virtual = 55579
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -517,8 +555,9 @@ Report BlackBoxes:
 |1     |Final_Project_BD_xbar_0                 |         1|
 |2     |Final_Project_BD_auto_pc_0              |         1|
 |3     |Final_Project_BD_PmodCOLOR_0_2          |         1|
-|4     |Final_Project_BD_processing_system7_0_0 |         1|
-|5     |Final_Project_BD_rst_ps7_0_50M_2        |         1|
+|4     |Final_Project_BD_axi_iic_0_0            |         1|
+|5     |Final_Project_BD_processing_system7_0_0 |         1|
+|6     |Final_Project_BD_rst_ps7_0_50M_2        |         1|
 +------+----------------------------------------+----------+
 
 Report Cell Usage: 
@@ -527,33 +566,34 @@ Report Cell Usage:
 +------+---------------------------------------------+------+
 |1     |Final_Project_BD_PmodCOLOR_0_2_bbox          |     1|
 |2     |Final_Project_BD_auto_pc_0_bbox              |     1|
-|3     |Final_Project_BD_processing_system7_0_0_bbox |     1|
-|4     |Final_Project_BD_rst_ps7_0_50M_2_bbox        |     1|
-|5     |Final_Project_BD_xbar_0_bbox                 |     1|
-|6     |IOBUF                                        |     8|
+|3     |Final_Project_BD_axi_iic_0_0_bbox            |     1|
+|4     |Final_Project_BD_processing_system7_0_0_bbox |     1|
+|5     |Final_Project_BD_rst_ps7_0_50M_2_bbox        |     1|
+|6     |Final_Project_BD_xbar_0_bbox                 |     1|
+|7     |IOBUF                                        |    10|
 +------+---------------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2814.074 ; gain = 63.766 ; free physical = 16336 ; free virtual = 57714
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2811.070 ; gain = 63.766 ; free physical = 11913 ; free virtual = 55579
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 7 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 2814.074 ; gain = 0.000 ; free physical = 16390 ; free virtual = 57769
-Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2814.074 ; gain = 63.766 ; free physical = 16390 ; free virtual = 57769
+Synthesis finished with 0 errors, 0 critical warnings and 9 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 2811.070 ; gain = 0.000 ; free physical = 11971 ; free virtual = 55637
+Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2811.070 ; gain = 63.766 ; free physical = 11971 ; free virtual = 55637
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2814.074 ; gain = 0.000 ; free physical = 16385 ; free virtual = 57764
-INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2811.070 ; gain = 0.000 ; free physical = 11967 ; free virtual = 55633
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2814.074 ; gain = 0.000 ; free physical = 16412 ; free virtual = 57788
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2811.070 ; gain = 0.000 ; free physical = 11993 ; free virtual = 55659
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 8 instances were transformed.
-  IOBUF => IOBUF (IBUF, OBUFT): 8 instances
+  A total of 10 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 10 instances
 
-Synth Design complete, checksum: 30219777
+Synth Design complete, checksum: a13de289
 INFO: [Common 17-83] Releasing license: Synthesis
-58 Infos, 25 Warnings, 0 Critical Warnings and 0 Errors encountered.
+64 Infos, 54 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:22 . Memory (MB): peak = 2814.074 ; gain = 64.031 ; free physical = 16606 ; free virtual = 57981
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:22 . Memory (MB): peak = 2811.070 ; gain = 64.031 ; free physical = 12184 ; free virtual = 55850
 INFO: [Common 17-1381] The checkpoint '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.runs/synth_1/Final_Project_BD_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file Final_Project_BD_wrapper_utilization_synth.rpt -pb Final_Project_BD_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sat May  7 15:01:21 2022...
+INFO: [Common 17-206] Exiting Vivado at Mon May  9 18:11:57 2022...

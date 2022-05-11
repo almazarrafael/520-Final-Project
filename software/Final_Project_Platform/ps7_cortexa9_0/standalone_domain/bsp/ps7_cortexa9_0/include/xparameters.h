@@ -291,6 +291,29 @@
 
 /******************************************************************/
 
+/* Definitions for driver IIC */
+#define XPAR_XIIC_NUM_INSTANCES 1
+
+/* Definitions for peripheral AXI_IIC_0 */
+#define XPAR_AXI_IIC_0_DEVICE_ID 0
+#define XPAR_AXI_IIC_0_BASEADDR 0x41600000
+#define XPAR_AXI_IIC_0_HIGHADDR 0x4160FFFF
+#define XPAR_AXI_IIC_0_TEN_BIT_ADR 0
+#define XPAR_AXI_IIC_0_GPO_WIDTH 1
+
+
+/******************************************************************/
+
+/* Canonical definitions for peripheral AXI_IIC_0 */
+#define XPAR_IIC_0_DEVICE_ID XPAR_AXI_IIC_0_DEVICE_ID
+#define XPAR_IIC_0_BASEADDR 0x41600000
+#define XPAR_IIC_0_HIGHADDR 0x4160FFFF
+#define XPAR_IIC_0_TEN_BIT_ADR 0
+#define XPAR_IIC_0_GPO_WIDTH 1
+
+
+/******************************************************************/
+
 /* Definitions for driver QSPIPS */
 #define XPAR_XQSPIPS_NUM_INSTANCES 1
 

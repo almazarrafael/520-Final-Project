@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon May  9 18:08:06 2022
+# Process ID: 170588
+# Current directory: /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.runs/Final_Project_BD_auto_pc_0_synth_1
+# Command line: vivado -log Final_Project_BD_auto_pc_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Final_Project_BD_auto_pc_0.tcl
+# Log file: /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.runs/Final_Project_BD_auto_pc_0_synth_1/Final_Project_BD_auto_pc_0.vds
+# Journal file: /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.runs/Final_Project_BD_auto_pc_0_synth_1/vivado.jou
+# Running On: raf-ThinkPad, OS: Linux, CPU Frequency: 1400.000 MHz, CPU Physical cores: 16, Host memory: 32843 MB
+#-----------------------------------------------------------
+source Final_Project_BD_auto_pc_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/if'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2021.2/data/ip'.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP Final_Project_BD_auto_pc_0, cache-ID = c69c970052681086.
+INFO: [Common 17-206] Exiting Vivado at Mon May  9 18:08:18 2022...

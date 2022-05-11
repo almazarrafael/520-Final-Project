@@ -1,4 +1,4 @@
-15:12:06 **** Incremental Build of configuration Debug for project Final_Project_App ****
+19:37:43 **** Incremental Build of configuration Debug for project Final_Project_App ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
@@ -8,8 +8,8 @@ Building file: ../src/zynq_ps_main_c.c
 Invoking: ARM v7 gcc compiler
 arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/zynq_ps_main_c.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/export/Final_Project_Platform/sw/Final_Project_Platform/standalone_domain/bspinclude/include -MMD -MP -MF"src/zynq_ps_main_c.d" -MT"src/zynq_ps_main_c.o" -o "src/zynq_ps_main_c.o" "../src/zynq_ps_main_c.c"
 ../src/zynq_ps_main_c.c: In function 'DemoRun':
-../src/zynq_ps_main_c.c:69:5: warning: unused variable 'ID' [-Wunused-variable]
-   69 |  u8 ID, buf[1];
+../src/zynq_ps_main_c.c:68:5: warning: unused variable 'ID' [-Wunused-variable]
+   68 |  u8 ID, buf[1];
       |     ^~
 Finished building: ../src/zynq_ps_main_c.c
  
@@ -21,9 +21,9 @@ Finished building target: Final_Project_App.elf
 Invoking: ARM v7 Print Size
 arm-none-eabi-size Final_Project_App.elf  |tee "Final_Project_App.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  29914	   1176	  22760	  53850	   d25a	Final_Project_App.elf
+  29978	   1176	  22760	  53914	   d29a	Final_Project_App.elf
 Finished building: Final_Project_App.elf.size
  
 
-15:12:07 Build Finished (took 426ms)
+19:37:44 Build Finished (took 370ms)
 

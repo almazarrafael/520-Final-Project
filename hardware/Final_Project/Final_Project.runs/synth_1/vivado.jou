@@ -2,12 +2,12 @@
 # Vivado v2021.2 (64-bit)
 # SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
 # IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
-# Start of session at: Sat May  7 15:00:39 2022
-# Process ID: 48441
+# Start of session at: Mon May  9 18:11:21 2022
+# Process ID: 171484
 # Current directory: /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.runs/synth_1
 # Command line: vivado -log Final_Project_BD_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Final_Project_BD_wrapper.tcl
 # Log file: /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.runs/synth_1/Final_Project_BD_wrapper.vds
 # Journal file: /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project.runs/synth_1/vivado.jou
-# Running On: raf-ThinkPad, OS: Linux, CPU Frequency: 3002.458 MHz, CPU Physical cores: 16, Host memory: 32843 MB
+# Running On: raf-ThinkPad, OS: Linux, CPU Frequency: 1400.000 MHz, CPU Physical cores: 16, Host memory: 32843 MB
 #-----------------------------------------------------------
 source Final_Project_BD_wrapper.tcl -notrace

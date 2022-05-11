@@ -3543,3 +3543,1668 @@ TRACE::2022-05-07.15:07:46::SCWMssOS::DEBUG:  swdes dump  /home/rgalmazar/Docume
 /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
 
 TRACE::2022-05-07.15:07:46::SCWMssOS::Sw design exists and opened at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-09.18:15:53::SCWPlatform::Trying to open the hw design at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:53::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:53::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:53::SCWPlatform::DSA directory /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw
+TRACE::2022-05-09.18:15:53::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:53::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.18:15:53::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-05-09.18:15:54::SCWPlatform::Opened new HwDB with name Final_Project_BD_wrapper_0
+TRACE::2022-05-09.18:15:54::SCWReader::Active system found as  Final_Project_Platform
+TRACE::2022-05-09.18:15:54::SCWReader::Handling sysconfig Final_Project_Platform
+TRACE::2022-05-09.18:15:54::SCWDomain::checking for install qemu data   : 
+TRACE::2022-05-09.18:15:54::SCWDomain:: Using the QEMU Data from install at  : /tools/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2022-05-09.18:15:54::SCWDomain:: Using the QEMU args  from install at  : /tools/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2022-05-09.18:15:54::SCWPlatform::Trying to open the hw design at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform::DSA directory /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw
+TRACE::2022-05-09.18:15:54::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.18:15:54::SCWPlatform::Trying to set the existing hwdb with name Final_Project_BD_wrapper_0
+TRACE::2022-05-09.18:15:54::SCWPlatform::Opened existing hwdb Final_Project_BD_wrapper_0
+TRACE::2022-05-09.18:15:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-09.18:15:54::SCWPlatform::Trying to open the hw design at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform::DSA directory /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw
+TRACE::2022-05-09.18:15:54::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.18:15:54::SCWPlatform::Trying to set the existing hwdb with name Final_Project_BD_wrapper_0
+TRACE::2022-05-09.18:15:54::SCWPlatform::Opened existing hwdb Final_Project_BD_wrapper_0
+TRACE::2022-05-09.18:15:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-09.18:15:54::SCWPlatform::Trying to open the hw design at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform::DSA directory /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw
+TRACE::2022-05-09.18:15:54::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.18:15:54::SCWPlatform::Trying to set the existing hwdb with name Final_Project_BD_wrapper_0
+TRACE::2022-05-09.18:15:54::SCWPlatform::Opened existing hwdb Final_Project_BD_wrapper_0
+TRACE::2022-05-09.18:15:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-09.18:15:54::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2022-05-09.18:15:54::SCWPlatform::Trying to open the hw design at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform::DSA directory /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw
+TRACE::2022-05-09.18:15:54::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.18:15:54::SCWPlatform::Trying to set the existing hwdb with name Final_Project_BD_wrapper_0
+TRACE::2022-05-09.18:15:54::SCWPlatform::Opened existing hwdb Final_Project_BD_wrapper_0
+TRACE::2022-05-09.18:15:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-09.18:15:54::SCWMssOS::Checking the sw design at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-09.18:15:54::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-05-09.18:15:54::SCWMssOS::No sw design opened at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-09.18:15:54::SCWMssOS::mss exists loading the mss file  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-09.18:15:54::SCWMssOS::Opened the sw design from mss  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-09.18:15:54::SCWMssOS::Adding the swdes entry /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2022-05-09.18:15:54::SCWMssOS::updating the scw layer about changes
+TRACE::2022-05-09.18:15:54::SCWMssOS::Opened the sw design.  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-09.18:15:54::SCWPlatform::Trying to open the hw design at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform::DSA directory /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw
+TRACE::2022-05-09.18:15:54::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.18:15:54::SCWPlatform::Trying to set the existing hwdb with name Final_Project_BD_wrapper_0
+TRACE::2022-05-09.18:15:54::SCWPlatform::Opened existing hwdb Final_Project_BD_wrapper_0
+TRACE::2022-05-09.18:15:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-09.18:15:54::SCWMssOS::Checking the sw design at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-09.18:15:54::SCWMssOS::DEBUG:  swdes dump  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-09.18:15:54::SCWMssOS::Sw design exists and opened at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-09.18:15:54::SCWMssOS:: library already available in sw design:  xilffs:4.6
+TRACE::2022-05-09.18:15:54::SCWPlatform::Trying to open the hw design at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform::DSA directory /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw
+TRACE::2022-05-09.18:15:54::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.18:15:54::SCWPlatform::Trying to set the existing hwdb with name Final_Project_BD_wrapper_0
+TRACE::2022-05-09.18:15:54::SCWPlatform::Opened existing hwdb Final_Project_BD_wrapper_0
+TRACE::2022-05-09.18:15:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-09.18:15:54::SCWMssOS::Checking the sw design at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-09.18:15:54::SCWMssOS::DEBUG:  swdes dump  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-09.18:15:54::SCWMssOS::Sw design exists and opened at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-09.18:15:54::SCWMssOS:: library already available in sw design:  xilrsa:1.6
+TRACE::2022-05-09.18:15:54::SCWMssOS::Saving the mss changes /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-09.18:15:54::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-05-09.18:15:54::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-05-09.18:15:54::SCWMssOS::Commit changes completed.
+TRACE::2022-05-09.18:15:54::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2022-05-09.18:15:54::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2022-05-09.18:15:54::SCWPlatform::Trying to open the hw design at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform::DSA directory /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw
+TRACE::2022-05-09.18:15:54::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.18:15:54::SCWPlatform::Trying to set the existing hwdb with name Final_Project_BD_wrapper_0
+TRACE::2022-05-09.18:15:54::SCWPlatform::Opened existing hwdb Final_Project_BD_wrapper_0
+TRACE::2022-05-09.18:15:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-09.18:15:54::SCWMssOS::Checking the sw design at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-09.18:15:54::SCWMssOS::DEBUG:  swdes dump  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-09.18:15:54::SCWMssOS::Sw design exists and opened at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-09.18:15:54::SCWReader::No isolation master present  
+TRACE::2022-05-09.18:15:54::SCWDomain::checking for install qemu data   : 
+TRACE::2022-05-09.18:15:54::SCWDomain:: Using the QEMU Data from install at  : /tools/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2022-05-09.18:15:54::SCWDomain:: Using the QEMU args  from install at  : /tools/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2022-05-09.18:15:54::SCWPlatform::Trying to open the hw design at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform::DSA directory /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw
+TRACE::2022-05-09.18:15:54::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.18:15:54::SCWPlatform::Trying to set the existing hwdb with name Final_Project_BD_wrapper_0
+TRACE::2022-05-09.18:15:54::SCWPlatform::Opened existing hwdb Final_Project_BD_wrapper_0
+TRACE::2022-05-09.18:15:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-09.18:15:54::SCWPlatform::Trying to open the hw design at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform::DSA directory /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw
+TRACE::2022-05-09.18:15:54::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.18:15:54::SCWPlatform::Trying to set the existing hwdb with name Final_Project_BD_wrapper_0
+TRACE::2022-05-09.18:15:54::SCWPlatform::Opened existing hwdb Final_Project_BD_wrapper_0
+TRACE::2022-05-09.18:15:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-09.18:15:54::SCWPlatform::Trying to open the hw design at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform::DSA directory /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw
+TRACE::2022-05-09.18:15:54::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.18:15:54::SCWPlatform::Trying to set the existing hwdb with name Final_Project_BD_wrapper_0
+TRACE::2022-05-09.18:15:54::SCWPlatform::Opened existing hwdb Final_Project_BD_wrapper_0
+TRACE::2022-05-09.18:15:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-09.18:15:54::SCWMssOS::Checking the sw design at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-09.18:15:54::SCWMssOS::DEBUG:  swdes dump  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-09.18:15:54::SCWMssOS::No sw design opened at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-09.18:15:54::SCWMssOS::mss exists loading the mss file  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-09.18:15:54::SCWMssOS::Opened the sw design from mss  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-09.18:15:54::SCWMssOS::Adding the swdes entry /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2022-05-09.18:15:54::SCWMssOS::updating the scw layer about changes
+TRACE::2022-05-09.18:15:54::SCWMssOS::Opened the sw design.  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-09.18:15:54::SCWMssOS::Saving the mss changes /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-09.18:15:54::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-05-09.18:15:54::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-05-09.18:15:54::SCWMssOS::Commit changes completed.
+TRACE::2022-05-09.18:15:54::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2022-05-09.18:15:54::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2022-05-09.18:15:54::SCWPlatform::Trying to open the hw design at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform::DSA directory /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw
+TRACE::2022-05-09.18:15:54::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:15:54::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.18:15:54::SCWPlatform::Trying to set the existing hwdb with name Final_Project_BD_wrapper_0
+TRACE::2022-05-09.18:15:54::SCWPlatform::Opened existing hwdb Final_Project_BD_wrapper_0
+TRACE::2022-05-09.18:15:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-09.18:15:54::SCWMssOS::Checking the sw design at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-09.18:15:54::SCWMssOS::DEBUG:  swdes dump  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-09.18:15:54::SCWMssOS::Sw design exists and opened at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-09.18:15:54::SCWReader::No isolation master present  
+TRACE::2022-05-09.18:16:04::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/tempdsa/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:16:04::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/tempdsa/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:16:04::SCWPlatform:: Platform location is /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/tempdsa
+TRACE::2022-05-09.18:16:04::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/tempdsa/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:16:04::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.18:16:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-09.18:16:06::SCWMssOS::Doing hw sync for the mss in domain: zynq_fsbl
+TRACE::2022-05-09.18:16:06::SCWPlatform::Trying to open the hw design at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:16:06::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:16:06::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:16:06::SCWPlatform::DSA directory /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw
+TRACE::2022-05-09.18:16:06::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:16:06::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.18:16:06::SCWPlatform::Trying to set the existing hwdb with name Final_Project_BD_wrapper_0
+TRACE::2022-05-09.18:16:06::SCWPlatform::Opened existing hwdb Final_Project_BD_wrapper_0
+TRACE::2022-05-09.18:16:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-09.18:16:06::SCWPlatform::Trying to open the hw design at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:16:06::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:16:06::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:16:06::SCWPlatform::DSA directory /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw
+TRACE::2022-05-09.18:16:06::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:16:06::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.18:16:06::SCWPlatform::Trying to set the existing hwdb with name Final_Project_BD_wrapper_0
+TRACE::2022-05-09.18:16:06::SCWPlatform::Opened existing hwdb Final_Project_BD_wrapper_0
+TRACE::2022-05-09.18:16:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-09.18:16:06::SCWMssOS::Checking the sw design at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-09.18:16:06::SCWMssOS::DEBUG:  swdes dump  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-09.18:16:06::SCWMssOS::Sw design exists and opened at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-09.18:16:06::SCWPlatform::Trying to open the hw design at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/tempdsa/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:16:06::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/tempdsa/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:16:06::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/tempdsa/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:16:06::SCWPlatform::DSA directory /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/tempdsa
+TRACE::2022-05-09.18:16:06::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/tempdsa/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:16:06::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.18:16:06::SCWPlatform::update - Opened existing hwdb Final_Project_BD_wrapper_1
+TRACE::2022-05-09.18:16:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-09.18:16:06::SCWMssOS::Doing hw sync for the mss in domain: standalone_domain
+TRACE::2022-05-09.18:16:06::SCWPlatform::Trying to open the hw design at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:16:06::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:16:06::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:16:06::SCWPlatform::DSA directory /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw
+TRACE::2022-05-09.18:16:06::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:16:06::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.18:16:06::SCWPlatform::Trying to set the existing hwdb with name Final_Project_BD_wrapper_0
+TRACE::2022-05-09.18:16:06::SCWPlatform::Opened existing hwdb Final_Project_BD_wrapper_0
+TRACE::2022-05-09.18:16:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-09.18:16:06::SCWPlatform::Trying to open the hw design at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:16:06::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:16:06::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:16:06::SCWPlatform::DSA directory /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw
+TRACE::2022-05-09.18:16:06::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:16:06::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.18:16:06::SCWPlatform::Trying to set the existing hwdb with name Final_Project_BD_wrapper_0
+TRACE::2022-05-09.18:16:06::SCWPlatform::Opened existing hwdb Final_Project_BD_wrapper_0
+TRACE::2022-05-09.18:16:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-09.18:16:06::SCWMssOS::Checking the sw design at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-09.18:16:06::SCWMssOS::DEBUG:  swdes dump  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-09.18:16:06::SCWMssOS::Sw design exists and opened at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-09.18:16:06::SCWPlatform::Trying to open the hw design at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/tempdsa/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:16:06::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/tempdsa/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:16:06::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/tempdsa/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:16:06::SCWPlatform::DSA directory /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/tempdsa
+TRACE::2022-05-09.18:16:06::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/tempdsa/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:16:06::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.18:16:06::SCWPlatform::update - Opened existing hwdb Final_Project_BD_wrapper_1
+TRACE::2022-05-09.18:16:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-09.18:16:06::SCWMssOS::Saving the mss changes /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-09.18:16:06::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-05-09.18:16:06::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-05-09.18:16:06::SCWMssOS::Commit changes completed.
+TRACE::2022-05-09.18:16:06::SCWMssOS::Completed hw sync for the mss in domain: zynq_fsbl
+TRACE::2022-05-09.18:16:06::SCWMssOS::Removing the swdes entry for  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-09.18:16:06::SCWMssOS::Saving the mss changes /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-09.18:16:06::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-05-09.18:16:06::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-05-09.18:16:06::SCWMssOS::Commit changes completed.
+TRACE::2022-05-09.18:16:06::SCWMssOS::Completed hw sync for the mss in domain: standalone_domain
+TRACE::2022-05-09.18:16:06::SCWMssOS::Removing the swdes entry for  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-09.18:16:06::SCWPlatform::Trying to open the hw design at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:16:06::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:16:06::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:16:06::SCWPlatform::DSA directory /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw
+TRACE::2022-05-09.18:16:06::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:16:06::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.18:16:06::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-05-09.18:16:09::SCWPlatform::Opened new HwDB with name Final_Project_BD_wrapper_2
+TRACE::2022-05-09.18:16:09::SCWMssOS::Saving the mss changes /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-09.18:16:09::SCWMssOS::Adding the swdes entry, mss present, able to open swdb /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2022-05-09.18:16:09::SCWMssOS::Writing the mss file completed /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-09.18:16:09::SCWMssOS::Commit changes completed.
+TRACE::2022-05-09.18:16:09::SCWMssOS::Saving the mss changes /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-09.18:16:09::SCWMssOS::Adding the swdes entry, mss present, able to open swdb /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2022-05-09.18:16:09::SCWMssOS::Writing the mss file completed /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-09.18:16:09::SCWMssOS::Commit changes completed.
+TRACE::2022-05-09.18:16:09::SCWPlatform::Trying to open the hw design at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:16:09::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:16:09::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:16:09::SCWPlatform::DSA directory /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw
+TRACE::2022-05-09.18:16:09::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:16:09::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.18:16:09::SCWPlatform::Trying to set the existing hwdb with name Final_Project_BD_wrapper_2
+TRACE::2022-05-09.18:16:09::SCWPlatform::Opened existing hwdb Final_Project_BD_wrapper_2
+TRACE::2022-05-09.18:16:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-09.18:16:09::SCWMssOS::Checking the sw design at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-09.18:16:09::SCWMssOS::DEBUG:  swdes dump  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-09.18:16:09::SCWMssOS::Sw design exists and opened at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-09.18:16:09::SCWPlatform::Trying to open the hw design at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:16:09::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:16:09::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:16:09::SCWPlatform::DSA directory /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw
+TRACE::2022-05-09.18:16:09::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:16:09::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.18:16:09::SCWPlatform::Trying to set the existing hwdb with name Final_Project_BD_wrapper_2
+TRACE::2022-05-09.18:16:09::SCWPlatform::Opened existing hwdb Final_Project_BD_wrapper_2
+TRACE::2022-05-09.18:16:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-09.18:16:09::SCWMssOS::Checking the sw design at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-09.18:16:09::SCWMssOS::DEBUG:  swdes dump  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-09.18:16:09::SCWMssOS::Sw design exists and opened at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-09.18:16:09::SCWWriter::formatted JSON is {
+	"platformName":	"Final_Project_Platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Final_Project_Platform",
+	"platHandOff":	"/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project_BD_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Final_Project_BD_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Final_Project_Platform",
+	"systems":	[{
+			"systemName":	"Final_Project_Platform",
+			"systemDesc":	"Final_Project_Platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Final_Project_Platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"1bdba67153d53fd84b3f18965a8ddbf7",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.6", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"/tools/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"/tools/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"ed5782fe78084cedbfe6cf8effcd2820",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2022-05-09.18:37:35::SCWPlatform::Started generating the artifacts platform Final_Project_Platform
+TRACE::2022-05-09.18:37:35::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-05-09.18:37:35::SCWPlatform::Started generating the artifacts for system configuration Final_Project_Platform
+LOG::2022-05-09.18:37:35::SCWSystem::Checking the domain zynq_fsbl
+LOG::2022-05-09.18:37:35::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2022-05-09.18:37:35::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2022-05-09.18:37:35::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2022-05-09.18:37:35::SCWSystem::Checking the domain standalone_domain
+LOG::2022-05-09.18:37:35::SCWSystem::Not a boot domain 
+LOG::2022-05-09.18:37:35::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2022-05-09.18:37:35::SCWDomain::Generating domain artifcats
+TRACE::2022-05-09.18:37:35::SCWMssOS::Generating standalone artifcats
+TRACE::2022-05-09.18:37:35::SCWMssOS::Copying the qemu file from  /tools/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/export/Final_Project_Platform/sw/Final_Project_Platform/qemu/
+TRACE::2022-05-09.18:37:35::SCWMssOS::Copying the qemu file from  /tools/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/export/Final_Project_Platform/sw/Final_Project_Platform/standalone_domain/qemu/
+TRACE::2022-05-09.18:37:35::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-05-09.18:37:35::SCWPlatform::Trying to open the hw design at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:37:35::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:37:35::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:37:35::SCWPlatform::DSA directory /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw
+TRACE::2022-05-09.18:37:35::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:37:35::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.18:37:35::SCWPlatform::Trying to set the existing hwdb with name Final_Project_BD_wrapper_2
+TRACE::2022-05-09.18:37:35::SCWPlatform::Opened existing hwdb Final_Project_BD_wrapper_2
+TRACE::2022-05-09.18:37:35::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-09.18:37:35::SCWMssOS::Checking the sw design at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-09.18:37:35::SCWMssOS::DEBUG:  swdes dump  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-09.18:37:35::SCWMssOS::Sw design exists and opened at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-09.18:37:35::SCWMssOS::Completed writing the mss file at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2022-05-09.18:37:35::SCWMssOS::Mss edits present, copying mssfile into export location /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-09.18:37:35::SCWMssOS::bsp generated is stale removing and regenerating. 
+TRACE::2022-05-09.18:37:35::SCWMssOS::doing bsp build ... 
+TRACE::2022-05-09.18:37:35::SCWMssOS::System Command Ran  cd  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp ; bash -c "make  " 
+TRACE::2022-05-09.18:37:35::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2022-05-09.18:37:35::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_9/src
+
+TRACE::2022-05-09.18:37:35::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-05-09.18:37:35::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-05-09.18:37:35::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:35::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_13/src
+
+TRACE::2022-05-09.18:37:35::SCWMssOS::make -C ps7_cortexa9_0/libsrc/sdps_v3_13/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2022-05-09.18:37:35::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2022-05-09.18:37:35::SCWMssOS::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:35::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/iic_v3_8/src
+
+TRACE::2022-05-09.18:37:35::SCWMssOS::make -C ps7_cortexa9_0/libsrc/iic_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-05-09.18:37:35::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-05-09.18:37:35::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:35::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_4/src
+
+TRACE::2022-05-09.18:37:35::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-05-09.18:37:35::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-05-09.18:37:35::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:35::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_7/src
+
+TRACE::2022-05-09.18:37:35::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-05-09.18:37:35::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-05-09.18:37:35::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:35::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_6/src
+
+TRACE::2022-05-09.18:37:35::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v4_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-05-09.18:37:35::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-05-09.18:37:35::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:35::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_15/src
+
+TRACE::2022-05-09.18:37:35::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_15/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2022-05-09.18:37:35::SCWMssOS::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2022-05-09.18:37:35::SCWMssOS::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:36::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_11/src
+
+TRACE::2022-05-09.18:37:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/uartps_v3_11/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2022-05-09.18:37:36::SCWMssOS::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2022-05-09.18:37:36::SCWMssOS::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:36::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_3/src
+
+TRACE::2022-05-09.18:37:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2022-05-09.18:37:36::SCWMssOS::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2022-05-09.18:37:36::SCWMssOS:: -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:36::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_6/src
+
+TRACE::2022-05-09.18:37:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v7_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-
+TRACE::2022-05-09.18:37:36::SCWMssOS::eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=ha
+TRACE::2022-05-09.18:37:36::SCWMssOS::rd -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:36::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_7/src
+
+TRACE::2022-05-09.18:37:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/usbps_v2_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2022-05-09.18:37:36::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2022-05-09.18:37:36::SCWMssOS::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:36::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src
+
+TRACE::2022-05-09.18:37:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-
+TRACE::2022-05-09.18:37:36::SCWMssOS::none-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-a
+TRACE::2022-05-09.18:37:36::SCWMssOS::bi=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:36::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_2/src
+
+TRACE::2022-05-09.18:37:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2022-05-09.18:37:36::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2022-05-09.18:37:36::SCWMssOS::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:36::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_6/src
+
+TRACE::2022-05-09.18:37:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-05-09.18:37:36::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-05-09.18:37:36::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:36::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src
+
+TRACE::2022-05-09.18:37:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-no
+TRACE::2022-05-09.18:37:36::SCWMssOS::ne-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi
+TRACE::2022-05-09.18:37:36::SCWMssOS::=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:36::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_9/src
+
+TRACE::2022-05-09.18:37:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/qspips_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-05-09.18:37:36::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-05-09.18:37:36::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:36::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_8/src
+
+TRACE::2022-05-09.18:37:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2022-05-09.18:37:36::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2022-05-09.18:37:36::SCWMssOS::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:36::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/PmodCOLOR_v1_0/src
+
+TRACE::2022-05-09.18:37:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/PmodCOLOR_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-e
+TRACE::2022-05-09.18:37:36::SCWMssOS::abi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=har
+TRACE::2022-05-09.18:37:36::SCWMssOS::d -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:36::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/PmodCOLOR_v1_0/src
+
+TRACE::2022-05-09.18:37:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/PmodCOLOR_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-05-09.18:37:36::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-05-09.18:37:36::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:36::SCWMssOS::Compiling PmodCOLOR...
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::Finished building libraries sequentially.
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::make -j 14 --no-print-directory par_libs
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_9/src
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-05-09.18:37:37::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-05-09.18:37:37::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_13/src
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::make -C ps7_cortexa9_0/libsrc/sdps_v3_13/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2022-05-09.18:37:37::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2022-05-09.18:37:37::SCWMssOS::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/iic_v3_8/src
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::make -C ps7_cortexa9_0/libsrc/iic_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-05-09.18:37:37::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-05-09.18:37:37::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_4/src
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_7/src
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-05-09.18:37:37::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-05-09.18:37:37::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-05-09.18:37:37::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-05-09.18:37:37::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_6/src
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_15/src
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v4_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-05-09.18:37:37::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-05-09.18:37:37::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_15/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2022-05-09.18:37:37::SCWMssOS::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2022-05-09.18:37:37::SCWMssOS::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_11/src
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::make -C ps7_cortexa9_0/libsrc/uartps_v3_11/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2022-05-09.18:37:37::SCWMssOS::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2022-05-09.18:37:37::SCWMssOS::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_3/src
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_6/src
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_7/src
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2022-05-09.18:37:37::SCWMssOS::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2022-05-09.18:37:37::SCWMssOS:: -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v7_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-
+TRACE::2022-05-09.18:37:37::SCWMssOS::eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=ha
+TRACE::2022-05-09.18:37:37::SCWMssOS::rd -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::make -C ps7_cortexa9_0/libsrc/usbps_v2_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2022-05-09.18:37:37::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2022-05-09.18:37:37::SCWMssOS::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-
+TRACE::2022-05-09.18:37:37::SCWMssOS::none-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-a
+TRACE::2022-05-09.18:37:37::SCWMssOS::bi=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_2/src
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_6/src
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2022-05-09.18:37:37::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2022-05-09.18:37:37::SCWMssOS::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-05-09.18:37:37::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-05-09.18:37:37::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_9/src
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::make -C ps7_cortexa9_0/libsrc/qspips_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-05-09.18:37:37::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-05-09.18:37:37::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-no
+TRACE::2022-05-09.18:37:37::SCWMssOS::ne-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi
+TRACE::2022-05-09.18:37:37::SCWMssOS::=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/PmodCOLOR_v1_0/src
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_8/src
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::make -C ps7_cortexa9_0/libsrc/PmodCOLOR_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-e
+TRACE::2022-05-09.18:37:37::SCWMssOS::abi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=har
+TRACE::2022-05-09.18:37:37::SCWMssOS::d -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2022-05-09.18:37:37::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2022-05-09.18:37:37::SCWMssOS::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_9/src
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_9/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-05-09.18:37:37::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-05-09.18:37:37::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_13/src
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_4/src
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_7/src
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/iic_v3_8/src
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::make -C ps7_cortexa9_0/libsrc/sdps_v3_13/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-05-09.18:37:37::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-05-09.18:37:37::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::make -C ps7_cortexa9_0/libsrc/iic_v3_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2022-05-09.18:37:37::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2022-05-09.18:37:37::SCWMssOS::tfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-05-09.18:37:37::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-05-09.18:37:37::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-05-09.18:37:37::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-05-09.18:37:37::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_6/src
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v4_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-05-09.18:37:37::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-05-09.18:37:37::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_11/src
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_15/src
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_15/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2022-05-09.18:37:37::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2022-05-09.18:37:37::SCWMssOS::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_3/src
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::make -C ps7_cortexa9_0/libsrc/uartps_v3_11/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2022-05-09.18:37:37::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2022-05-09.18:37:37::SCWMssOS::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2022-05-09.18:37:37::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2022-05-09.18:37:37::SCWMssOS::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_7/src
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_6/src
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::make -C ps7_cortexa9_0/libsrc/usbps_v2_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-05-09.18:37:37::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-05-09.18:37:37::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v7_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2022-05-09.18:37:37::SCWMssOS::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2022-05-09.18:37:37::SCWMssOS::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-non
+TRACE::2022-05-09.18:37:37::SCWMssOS::e-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=
+TRACE::2022-05-09.18:37:37::SCWMssOS::hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_2/src
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-05-09.18:37:37::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-05-09.18:37:37::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_6/src
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-05-09.18:37:37::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-05-09.18:37:37::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src
+
+TRACE::2022-05-09.18:37:37::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-
+TRACE::2022-05-09.18:37:37::SCWMssOS::eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=ha
+TRACE::2022-05-09.18:37:37::SCWMssOS::rd -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:38::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_9/src
+
+TRACE::2022-05-09.18:37:38::SCWMssOS::make -C ps7_cortexa9_0/libsrc/qspips_v3_9/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-05-09.18:37:38::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-05-09.18:37:38::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:38::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_8/src
+
+TRACE::2022-05-09.18:37:38::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-05-09.18:37:38::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-05-09.18:37:38::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.18:37:38::SCWMssOS::Finished building libraries parallelly.
+
+TRACE::2022-05-09.18:37:38::SCWMssOS::make --no-print-directory archive
+
+TRACE::2022-05-09.18:37:38::SCWMssOS::arm-none-eabi-ar -r  ps7_cortexa9_0/lib/libxil.a ps7_cortexa9_0/lib/xqspips_selftest.o ps7_cortexa9_0/lib/lseek.o ps7_cortexa9_
+TRACE::2022-05-09.18:37:38::SCWMssOS::0/lib/xiic_dyn_master.o ps7_cortexa9_0/lib/xsdps_sinit.o ps7_cortexa9_0/lib/xusbps_g.o ps7_cortexa9_0/lib/xusbps_endpoint.o ps7
+TRACE::2022-05-09.18:37:38::SCWMssOS::_cortexa9_0/lib/xusbps.o ps7_cortexa9_0/lib/xqspips_g.o ps7_cortexa9_0/lib/xemacps_sinit.o ps7_cortexa9_0/lib/_sbrk.o ps7_corte
+TRACE::2022-05-09.18:37:38::SCWMssOS::xa9_0/lib/xpm_counter.o ps7_cortexa9_0/lib/xcoresightpsdcc.o ps7_cortexa9_0/lib/xscutimer.o ps7_cortexa9_0/lib/xdmaps.o ps7_cor
+TRACE::2022-05-09.18:37:38::SCWMssOS::texa9_0/lib/xdevcfg_sinit.o ps7_cortexa9_0/lib/xil_testcache.o ps7_cortexa9_0/lib/xscugic_intr.o ps7_cortexa9_0/lib/abort.o ps7
+TRACE::2022-05-09.18:37:38::SCWMssOS::_cortexa9_0/lib/asm_vectors.o ps7_cortexa9_0/lib/xiic_options.o ps7_cortexa9_0/lib/xl2cc_counter.o ps7_cortexa9_0/lib/xgpiops.o
+TRACE::2022-05-09.18:37:38::SCWMssOS:: ps7_cortexa9_0/lib/xil_testmem.o ps7_cortexa9_0/lib/xgpiops_hw.o ps7_cortexa9_0/lib/xiic_slave.o ps7_cortexa9_0/lib/outbyte.o 
+TRACE::2022-05-09.18:37:38::SCWMssOS::ps7_cortexa9_0/lib/xuartps_selftest.o ps7_cortexa9_0/lib/fcntl.o ps7_cortexa9_0/lib/xuartps_sinit.o ps7_cortexa9_0/lib/xiic_sta
+TRACE::2022-05-09.18:37:38::SCWMssOS::ts.o ps7_cortexa9_0/lib/xadcps.o ps7_cortexa9_0/lib/xuartps_g.o ps7_cortexa9_0/lib/xiic_g.o ps7_cortexa9_0/lib/unlink.o ps7_cor
+TRACE::2022-05-09.18:37:38::SCWMssOS::texa9_0/lib/xil_printf.o ps7_cortexa9_0/lib/xiic_intr.o ps7_cortexa9_0/lib/xil_clocking.o ps7_cortexa9_0/lib/xscuwdt.o ps7_cort
+TRACE::2022-05-09.18:37:38::SCWMssOS::exa9_0/lib/xgpiops_selftest.o ps7_cortexa9_0/lib/xusbps_sinit.o ps7_cortexa9_0/lib/xemacps_g.o ps7_cortexa9_0/lib/close.o ps7_c
+TRACE::2022-05-09.18:37:38::SCWMssOS::ortexa9_0/lib/xsdps.o ps7_cortexa9_0/lib/xgpiops_g.o ps7_cortexa9_0/lib/xqspips_hw.o ps7_cortexa9_0/lib/putnum.o ps7_cortexa9_0
+TRACE::2022-05-09.18:37:38::SCWMssOS::/lib/xscutimer_selftest.o ps7_cortexa9_0/lib/xdmaps_selftest.o ps7_cortexa9_0/lib/inbyte.o ps7_cortexa9_0/lib/xemacps_hw.o ps7_
+TRACE::2022-05-09.18:37:38::SCWMssOS::cortexa9_0/lib/xscutimer_sinit.o ps7_cortexa9_0/lib/xdmaps_sinit.o ps7_cortexa9_0/lib/xil_misc_psreset_api.o ps7_cortexa9_0/lib
+TRACE::2022-05-09.18:37:38::SCWMssOS::/xsdps_options.o ps7_cortexa9_0/lib/xscutimer_g.o ps7_cortexa9_0/lib/xdmaps_g.o ps7_cortexa9_0/lib/xqspips_options.o ps7_cortex
+TRACE::2022-05-09.18:37:38::SCWMssOS::a9_0/lib/xil_sleeptimer.o ps7_cortexa9_0/lib/xdevcfg_hw.o ps7_cortexa9_0/lib/sleep.o ps7_cortexa9_0/lib/isatty.o ps7_cortexa9_0
+TRACE::2022-05-09.18:37:38::SCWMssOS::/lib/time.o ps7_cortexa9_0/lib/xplatform_info.o ps7_cortexa9_0/lib/xadcps_selftest.o ps7_cortexa9_0/lib/xadcps_sinit.o ps7_cort
+TRACE::2022-05-09.18:37:38::SCWMssOS::exa9_0/lib/xqspips_sinit.o ps7_cortexa9_0/lib/xadcps_g.o ps7_cortexa9_0/lib/xscugic.o ps7_cortexa9_0/lib/xil-crt0.o ps7_cortexa
+TRACE::2022-05-09.18:37:38::SCWMssOS::9_0/lib/xscuwdt_selftest.o ps7_cortexa9_0/lib/xemacps_intr.o ps7_cortexa9_0/lib/_exit.o ps7_cortexa9_0/lib/xgpiops_sinit.o ps7_
+TRACE::2022-05-09.18:37:38::SCWMssOS::cortexa9_0/lib/xscuwdt_g.o ps7_cortexa9_0/lib/vectors.o ps7_cortexa9_0/lib/xdevcfg_intr.o ps7_cortexa9_0/lib/errno.o ps7_cortex
+TRACE::2022-05-09.18:37:38::SCWMssOS::a9_0/lib/fstat.o ps7_cortexa9_0/lib/xsdps_g.o ps7_cortexa9_0/lib/xusbps_hw.o ps7_cortexa9_0/lib/sbrk.o ps7_cortexa9_0/lib/xscuw
+TRACE::2022-05-09.18:37:38::SCWMssOS::dt_sinit.o ps7_cortexa9_0/lib/xiic_l.o ps7_cortexa9_0/lib/getpid.o ps7_cortexa9_0/lib/xdevcfg_selftest.o ps7_cortexa9_0/lib/xdm
+TRACE::2022-05-09.18:37:38::SCWMssOS::aps_hw.o ps7_cortexa9_0/lib/xsdps_card.o ps7_cortexa9_0/lib/xuartps_intr.o ps7_cortexa9_0/lib/xil_util.o ps7_cortexa9_0/lib/xsc
+TRACE::2022-05-09.18:37:38::SCWMssOS::ugic_selftest.o ps7_cortexa9_0/lib/xtime_l.o ps7_cortexa9_0/lib/xuartps_hw.o ps7_cortexa9_0/lib/xdevcfg_g.o ps7_cortexa9_0/lib/
+TRACE::2022-05-09.18:37:38::SCWMssOS::open.o ps7_cortexa9_0/lib/xscugic_sinit.o ps7_cortexa9_0/lib/xgpiops_intr.o ps7_cortexa9_0/lib/xscugic_g.o ps7_cortexa9_0/lib/x
+TRACE::2022-05-09.18:37:38::SCWMssOS::il_sleepcommon.o ps7_cortexa9_0/lib/usleep.o ps7_cortexa9_0/lib/xadcps_intr.o ps7_cortexa9_0/lib/cpu_init.o ps7_cortexa9_0/lib/
+TRACE::2022-05-09.18:37:38::SCWMssOS::xemacps_bdring.o ps7_cortexa9_0/lib/boot.o ps7_cortexa9_0/lib/xil_mmu.o ps7_cortexa9_0/lib/write.o ps7_cortexa9_0/lib/translati
+TRACE::2022-05-09.18:37:38::SCWMssOS::on_table.o ps7_cortexa9_0/lib/xil_spinlock.o ps7_cortexa9_0/lib/xqspips.o ps7_cortexa9_0/lib/xuartps_options.o ps7_cortexa9_0/l
+TRACE::2022-05-09.18:37:38::SCWMssOS::ib/xiic_sinit.o ps7_cortexa9_0/lib/xiic_multi_master.o ps7_cortexa9_0/lib/xil_testio.o ps7_cortexa9_0/lib/xil_cache.o ps7_corte
+TRACE::2022-05-09.18:37:38::SCWMssOS::xa9_0/lib/xemacps.o ps7_cortexa9_0/lib/xdevcfg.o ps7_cortexa9_0/lib/read.o ps7_cortexa9_0/lib/print.o ps7_cortexa9_0/lib/kill.o
+TRACE::2022-05-09.18:37:38::SCWMssOS:: ps7_cortexa9_0/lib/xil_mem.o ps7_cortexa9_0/lib/cpputest_time.o ps7_cortexa9_0/lib/xiic_selftest.o ps7_cortexa9_0/lib/xuartps.
+TRACE::2022-05-09.18:37:38::SCWMssOS::o ps7_cortexa9_0/lib/xiic.o ps7_cortexa9_0/lib/xscugic_hw.o ps7_cortexa9_0/lib/xsdps_host.o ps7_cortexa9_0/lib/xusbps_intr.o ps
+TRACE::2022-05-09.18:37:38::SCWMssOS::7_cortexa9_0/lib/xil_assert.o ps7_cortexa9_0/lib/_open.o ps7_cortexa9_0/lib/xiic_master.o ps7_cortexa9_0/lib/xemacps_control.o 
+TRACE::2022-05-09.18:37:38::SCWMssOS::ps7_cortexa9_0/lib/xil_exception.o
+
+TRACE::2022-05-09.18:37:38::SCWMssOS::Finished building libraries
+
+TRACE::2022-05-09.18:37:38::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-05-09.18:37:38::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-05-09.18:37:38::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2022-05-09.18:37:38::SCWSystem::Completed Processing the sysconfig Final_Project_Platform
+LOG::2022-05-09.18:37:38::SCWPlatform::Completed generating the artifacts for system configuration Final_Project_Platform
+TRACE::2022-05-09.18:37:38::SCWPlatform::Started preparing the platform 
+TRACE::2022-05-09.18:37:38::SCWSystem::Writing the bif file for system config Final_Project_Platform
+TRACE::2022-05-09.18:37:38::SCWSystem::dir created 
+TRACE::2022-05-09.18:37:38::SCWSystem::Writing the bif 
+TRACE::2022-05-09.18:37:38::SCWPlatform::Started writing the spfm file 
+TRACE::2022-05-09.18:37:38::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-05-09.18:37:38::SCWPlatform::Completed generating the platform
+TRACE::2022-05-09.18:37:38::SCWMssOS::Saving the mss changes /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-09.18:37:38::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-05-09.18:37:38::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-05-09.18:37:38::SCWMssOS::Commit changes completed.
+TRACE::2022-05-09.18:37:38::SCWMssOS::Saving the mss changes /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-09.18:37:38::SCWMssOS::Adding the swdes entry, mss present, able to open swdb /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2022-05-09.18:37:38::SCWMssOS::Writing the mss file completed /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-09.18:37:38::SCWMssOS::Commit changes completed.
+TRACE::2022-05-09.18:37:38::SCWPlatform::Trying to open the hw design at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:37:38::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:37:38::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:37:38::SCWPlatform::DSA directory /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw
+TRACE::2022-05-09.18:37:38::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:37:38::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.18:37:38::SCWPlatform::Trying to set the existing hwdb with name Final_Project_BD_wrapper_2
+TRACE::2022-05-09.18:37:38::SCWPlatform::Opened existing hwdb Final_Project_BD_wrapper_2
+TRACE::2022-05-09.18:37:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-09.18:37:38::SCWMssOS::Checking the sw design at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-09.18:37:38::SCWMssOS::DEBUG:  swdes dump  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-09.18:37:38::SCWMssOS::Sw design exists and opened at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-09.18:37:38::SCWPlatform::Trying to open the hw design at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:37:38::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:37:38::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:37:38::SCWPlatform::DSA directory /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw
+TRACE::2022-05-09.18:37:38::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:37:38::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.18:37:38::SCWPlatform::Trying to set the existing hwdb with name Final_Project_BD_wrapper_2
+TRACE::2022-05-09.18:37:38::SCWPlatform::Opened existing hwdb Final_Project_BD_wrapper_2
+TRACE::2022-05-09.18:37:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-09.18:37:38::SCWMssOS::Checking the sw design at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-09.18:37:38::SCWMssOS::DEBUG:  swdes dump  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-09.18:37:38::SCWMssOS::Sw design exists and opened at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-09.18:37:38::SCWWriter::formatted JSON is {
+	"platformName":	"Final_Project_Platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Final_Project_Platform",
+	"platHandOff":	"/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project_BD_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Final_Project_BD_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Final_Project_Platform",
+	"systems":	[{
+			"systemName":	"Final_Project_Platform",
+			"systemDesc":	"Final_Project_Platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Final_Project_Platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"1bdba67153d53fd84b3f18965a8ddbf7",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.6", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"/tools/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"/tools/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"d1e3b484a8454a67b14aef44ca5c76a3",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-05-09.18:37:38::SCWPlatform::updated the xpfm file.
+TRACE::2022-05-09.18:37:39::SCWPlatform::Trying to open the hw design at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:37:39::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:37:39::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:37:39::SCWPlatform::DSA directory /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw
+TRACE::2022-05-09.18:37:39::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.18:37:39::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.18:37:39::SCWPlatform::Trying to set the existing hwdb with name Final_Project_BD_wrapper_2
+TRACE::2022-05-09.18:37:39::SCWPlatform::Opened existing hwdb Final_Project_BD_wrapper_2
+TRACE::2022-05-09.18:37:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-09.18:37:39::SCWMssOS::Checking the sw design at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-09.18:37:39::SCWMssOS::DEBUG:  swdes dump  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-09.18:37:39::SCWMssOS::Sw design exists and opened at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-09.19:15:02::SCWPlatform::Trying to open the hw design at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:02::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:02::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:02::SCWPlatform::DSA directory /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw
+TRACE::2022-05-09.19:15:02::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:02::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.19:15:02::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-05-09.19:15:04::SCWPlatform::Opened new HwDB with name Final_Project_BD_wrapper_0
+TRACE::2022-05-09.19:15:04::SCWReader::Active system found as  Final_Project_Platform
+TRACE::2022-05-09.19:15:04::SCWReader::Handling sysconfig Final_Project_Platform
+TRACE::2022-05-09.19:15:04::SCWDomain::checking for install qemu data   : 
+TRACE::2022-05-09.19:15:04::SCWDomain:: Using the QEMU Data from install at  : /tools/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2022-05-09.19:15:04::SCWDomain:: Using the QEMU args  from install at  : /tools/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2022-05-09.19:15:04::SCWPlatform::Trying to open the hw design at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform::DSA directory /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw
+TRACE::2022-05-09.19:15:04::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.19:15:04::SCWPlatform::Trying to set the existing hwdb with name Final_Project_BD_wrapper_0
+TRACE::2022-05-09.19:15:04::SCWPlatform::Opened existing hwdb Final_Project_BD_wrapper_0
+TRACE::2022-05-09.19:15:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-09.19:15:04::SCWPlatform::Trying to open the hw design at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform::DSA directory /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw
+TRACE::2022-05-09.19:15:04::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.19:15:04::SCWPlatform::Trying to set the existing hwdb with name Final_Project_BD_wrapper_0
+TRACE::2022-05-09.19:15:04::SCWPlatform::Opened existing hwdb Final_Project_BD_wrapper_0
+TRACE::2022-05-09.19:15:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-09.19:15:04::SCWPlatform::Trying to open the hw design at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform::DSA directory /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw
+TRACE::2022-05-09.19:15:04::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.19:15:04::SCWPlatform::Trying to set the existing hwdb with name Final_Project_BD_wrapper_0
+TRACE::2022-05-09.19:15:04::SCWPlatform::Opened existing hwdb Final_Project_BD_wrapper_0
+TRACE::2022-05-09.19:15:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-09.19:15:04::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2022-05-09.19:15:04::SCWPlatform::Trying to open the hw design at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform::DSA directory /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw
+TRACE::2022-05-09.19:15:04::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.19:15:04::SCWPlatform::Trying to set the existing hwdb with name Final_Project_BD_wrapper_0
+TRACE::2022-05-09.19:15:04::SCWPlatform::Opened existing hwdb Final_Project_BD_wrapper_0
+TRACE::2022-05-09.19:15:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-09.19:15:04::SCWMssOS::Checking the sw design at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-09.19:15:04::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-05-09.19:15:04::SCWMssOS::No sw design opened at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-09.19:15:04::SCWMssOS::mss exists loading the mss file  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-09.19:15:04::SCWMssOS::Opened the sw design from mss  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-09.19:15:04::SCWMssOS::Adding the swdes entry /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2022-05-09.19:15:04::SCWMssOS::updating the scw layer about changes
+TRACE::2022-05-09.19:15:04::SCWMssOS::Opened the sw design.  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-09.19:15:04::SCWPlatform::Trying to open the hw design at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform::DSA directory /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw
+TRACE::2022-05-09.19:15:04::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.19:15:04::SCWPlatform::Trying to set the existing hwdb with name Final_Project_BD_wrapper_0
+TRACE::2022-05-09.19:15:04::SCWPlatform::Opened existing hwdb Final_Project_BD_wrapper_0
+TRACE::2022-05-09.19:15:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-09.19:15:04::SCWMssOS::Checking the sw design at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-09.19:15:04::SCWMssOS::DEBUG:  swdes dump  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::Sw design exists and opened at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-09.19:15:04::SCWMssOS:: library already available in sw design:  xilffs:4.6
+TRACE::2022-05-09.19:15:04::SCWPlatform::Trying to open the hw design at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform::DSA directory /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw
+TRACE::2022-05-09.19:15:04::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.19:15:04::SCWPlatform::Trying to set the existing hwdb with name Final_Project_BD_wrapper_0
+TRACE::2022-05-09.19:15:04::SCWPlatform::Opened existing hwdb Final_Project_BD_wrapper_0
+TRACE::2022-05-09.19:15:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-09.19:15:04::SCWMssOS::Checking the sw design at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-09.19:15:04::SCWMssOS::DEBUG:  swdes dump  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::Sw design exists and opened at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-09.19:15:04::SCWMssOS:: library already available in sw design:  xilrsa:1.6
+TRACE::2022-05-09.19:15:04::SCWMssOS::Saving the mss changes /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-09.19:15:04::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-05-09.19:15:04::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-05-09.19:15:04::SCWMssOS::Commit changes completed.
+TRACE::2022-05-09.19:15:04::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2022-05-09.19:15:04::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2022-05-09.19:15:04::SCWPlatform::Trying to open the hw design at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform::DSA directory /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw
+TRACE::2022-05-09.19:15:04::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.19:15:04::SCWPlatform::Trying to set the existing hwdb with name Final_Project_BD_wrapper_0
+TRACE::2022-05-09.19:15:04::SCWPlatform::Opened existing hwdb Final_Project_BD_wrapper_0
+TRACE::2022-05-09.19:15:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-09.19:15:04::SCWMssOS::Checking the sw design at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-09.19:15:04::SCWMssOS::DEBUG:  swdes dump  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::Sw design exists and opened at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-09.19:15:04::SCWReader::No isolation master present  
+TRACE::2022-05-09.19:15:04::SCWDomain::checking for install qemu data   : 
+TRACE::2022-05-09.19:15:04::SCWDomain:: Using the QEMU Data from install at  : /tools/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2022-05-09.19:15:04::SCWDomain:: Using the QEMU args  from install at  : /tools/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2022-05-09.19:15:04::SCWPlatform::Trying to open the hw design at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform::DSA directory /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw
+TRACE::2022-05-09.19:15:04::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.19:15:04::SCWPlatform::Trying to set the existing hwdb with name Final_Project_BD_wrapper_0
+TRACE::2022-05-09.19:15:04::SCWPlatform::Opened existing hwdb Final_Project_BD_wrapper_0
+TRACE::2022-05-09.19:15:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-09.19:15:04::SCWPlatform::Trying to open the hw design at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform::DSA directory /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw
+TRACE::2022-05-09.19:15:04::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.19:15:04::SCWPlatform::Trying to set the existing hwdb with name Final_Project_BD_wrapper_0
+TRACE::2022-05-09.19:15:04::SCWPlatform::Opened existing hwdb Final_Project_BD_wrapper_0
+TRACE::2022-05-09.19:15:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-09.19:15:04::SCWPlatform::Trying to open the hw design at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform::DSA directory /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw
+TRACE::2022-05-09.19:15:04::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.19:15:04::SCWPlatform::Trying to set the existing hwdb with name Final_Project_BD_wrapper_0
+TRACE::2022-05-09.19:15:04::SCWPlatform::Opened existing hwdb Final_Project_BD_wrapper_0
+TRACE::2022-05-09.19:15:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-09.19:15:04::SCWMssOS::Checking the sw design at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-09.19:15:04::SCWMssOS::DEBUG:  swdes dump  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::No sw design opened at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-09.19:15:04::SCWMssOS::mss exists loading the mss file  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-09.19:15:04::SCWMssOS::Opened the sw design from mss  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-09.19:15:04::SCWMssOS::Adding the swdes entry /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2022-05-09.19:15:04::SCWMssOS::updating the scw layer about changes
+TRACE::2022-05-09.19:15:04::SCWMssOS::Opened the sw design.  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-09.19:15:04::SCWMssOS::Saving the mss changes /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-09.19:15:04::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-05-09.19:15:04::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-05-09.19:15:04::SCWMssOS::Commit changes completed.
+TRACE::2022-05-09.19:15:04::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2022-05-09.19:15:04::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2022-05-09.19:15:04::SCWPlatform::Trying to open the hw design at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform::DSA directory /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw
+TRACE::2022-05-09.19:15:04::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.19:15:04::SCWPlatform::Trying to set the existing hwdb with name Final_Project_BD_wrapper_0
+TRACE::2022-05-09.19:15:04::SCWPlatform::Opened existing hwdb Final_Project_BD_wrapper_0
+TRACE::2022-05-09.19:15:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-09.19:15:04::SCWMssOS::Checking the sw design at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-09.19:15:04::SCWMssOS::DEBUG:  swdes dump  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::Sw design exists and opened at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-09.19:15:04::SCWReader::No isolation master present  
+LOG::2022-05-09.19:15:04::SCWPlatform::Started generating the artifacts platform Final_Project_Platform
+TRACE::2022-05-09.19:15:04::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-05-09.19:15:04::SCWPlatform::Started generating the artifacts for system configuration Final_Project_Platform
+LOG::2022-05-09.19:15:04::SCWSystem::Checking the domain zynq_fsbl
+LOG::2022-05-09.19:15:04::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2022-05-09.19:15:04::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2022-05-09.19:15:04::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2022-05-09.19:15:04::SCWSystem::Checking the domain standalone_domain
+LOG::2022-05-09.19:15:04::SCWSystem::Not a boot domain 
+LOG::2022-05-09.19:15:04::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2022-05-09.19:15:04::SCWDomain::Generating domain artifcats
+TRACE::2022-05-09.19:15:04::SCWMssOS::Generating standalone artifcats
+TRACE::2022-05-09.19:15:04::SCWMssOS::Copying the qemu file from  /tools/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/export/Final_Project_Platform/sw/Final_Project_Platform/qemu/
+TRACE::2022-05-09.19:15:04::SCWMssOS::Copying the qemu file from  /tools/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/export/Final_Project_Platform/sw/Final_Project_Platform/standalone_domain/qemu/
+TRACE::2022-05-09.19:15:04::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-05-09.19:15:04::SCWPlatform::Trying to open the hw design at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform::DSA directory /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw
+TRACE::2022-05-09.19:15:04::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:04::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.19:15:04::SCWPlatform::Trying to set the existing hwdb with name Final_Project_BD_wrapper_0
+TRACE::2022-05-09.19:15:04::SCWPlatform::Opened existing hwdb Final_Project_BD_wrapper_0
+TRACE::2022-05-09.19:15:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-09.19:15:04::SCWMssOS::Checking the sw design at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-09.19:15:04::SCWMssOS::DEBUG:  swdes dump  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::Sw design exists and opened at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-09.19:15:04::SCWMssOS::Completed writing the mss file at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2022-05-09.19:15:04::SCWMssOS::Mss edits present, copying mssfile into export location /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-09.19:15:04::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-05-09.19:15:04::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-05-09.19:15:04::SCWDomain::Building the domain :  standalone_domain
+TRACE::2022-05-09.19:15:04::SCWMssOS::doing bsp build ... 
+TRACE::2022-05-09.19:15:04::SCWMssOS::System Command Ran  cd  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp ; bash -c "make  " 
+TRACE::2022-05-09.19:15:04::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_9/src
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-05-09.19:15:04::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-05-09.19:15:04::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_13/src
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::make -C ps7_cortexa9_0/libsrc/sdps_v3_13/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2022-05-09.19:15:04::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2022-05-09.19:15:04::SCWMssOS::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/iic_v3_8/src
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::make -C ps7_cortexa9_0/libsrc/iic_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-05-09.19:15:04::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-05-09.19:15:04::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_4/src
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-05-09.19:15:04::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-05-09.19:15:04::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_7/src
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-05-09.19:15:04::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-05-09.19:15:04::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_6/src
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v4_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-05-09.19:15:04::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-05-09.19:15:04::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_15/src
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_15/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2022-05-09.19:15:04::SCWMssOS::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2022-05-09.19:15:04::SCWMssOS::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_11/src
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::make -C ps7_cortexa9_0/libsrc/uartps_v3_11/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2022-05-09.19:15:04::SCWMssOS::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2022-05-09.19:15:04::SCWMssOS::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_3/src
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2022-05-09.19:15:04::SCWMssOS::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2022-05-09.19:15:04::SCWMssOS:: -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_6/src
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v7_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-
+TRACE::2022-05-09.19:15:04::SCWMssOS::eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=ha
+TRACE::2022-05-09.19:15:04::SCWMssOS::rd -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_7/src
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::make -C ps7_cortexa9_0/libsrc/usbps_v2_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2022-05-09.19:15:04::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2022-05-09.19:15:04::SCWMssOS::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-
+TRACE::2022-05-09.19:15:04::SCWMssOS::none-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-a
+TRACE::2022-05-09.19:15:04::SCWMssOS::bi=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_2/src
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2022-05-09.19:15:04::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2022-05-09.19:15:04::SCWMssOS::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_6/src
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-05-09.19:15:04::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-05-09.19:15:04::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-no
+TRACE::2022-05-09.19:15:04::SCWMssOS::ne-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi
+TRACE::2022-05-09.19:15:04::SCWMssOS::=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_9/src
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::make -C ps7_cortexa9_0/libsrc/qspips_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-05-09.19:15:04::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-05-09.19:15:04::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_8/src
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2022-05-09.19:15:04::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2022-05-09.19:15:04::SCWMssOS::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/PmodCOLOR_v1_0/src
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::make -C ps7_cortexa9_0/libsrc/PmodCOLOR_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-e
+TRACE::2022-05-09.19:15:04::SCWMssOS::abi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=har
+TRACE::2022-05-09.19:15:04::SCWMssOS::d -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/PmodCOLOR_v1_0/src
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::make -C ps7_cortexa9_0/libsrc/PmodCOLOR_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-05-09.19:15:04::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-05-09.19:15:04::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:04::SCWMssOS::Compiling PmodCOLOR...
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Finished building libraries sequentially.
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::make -j 14 --no-print-directory par_libs
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_9/src
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_13/src
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-05-09.19:15:05::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-05-09.19:15:05::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/sdps_v3_13/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2022-05-09.19:15:05::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2022-05-09.19:15:05::SCWMssOS::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/iic_v3_8/src
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_4/src
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_7/src
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/iic_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-05-09.19:15:05::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-05-09.19:15:05::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-05-09.19:15:05::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-05-09.19:15:05::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-05-09.19:15:05::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-05-09.19:15:05::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_6/src
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_15/src
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v4_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-05-09.19:15:05::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-05-09.19:15:05::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_15/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2022-05-09.19:15:05::SCWMssOS::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2022-05-09.19:15:05::SCWMssOS::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_3/src
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2022-05-09.19:15:05::SCWMssOS::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2022-05-09.19:15:05::SCWMssOS:: -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_11/src
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/uartps_v3_11/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2022-05-09.19:15:05::SCWMssOS::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2022-05-09.19:15:05::SCWMssOS::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_6/src
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v7_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-
+TRACE::2022-05-09.19:15:05::SCWMssOS::eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=ha
+TRACE::2022-05-09.19:15:05::SCWMssOS::rd -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_7/src
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/usbps_v2_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2022-05-09.19:15:05::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2022-05-09.19:15:05::SCWMssOS::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-
+TRACE::2022-05-09.19:15:05::SCWMssOS::none-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-a
+TRACE::2022-05-09.19:15:05::SCWMssOS::bi=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_2/src
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2022-05-09.19:15:05::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2022-05-09.19:15:05::SCWMssOS::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_6/src
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-05-09.19:15:05::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-05-09.19:15:05::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-no
+TRACE::2022-05-09.19:15:05::SCWMssOS::ne-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi
+TRACE::2022-05-09.19:15:05::SCWMssOS::=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_9/src
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/qspips_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-05-09.19:15:05::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-05-09.19:15:05::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_8/src
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/PmodCOLOR_v1_0/src
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2022-05-09.19:15:05::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2022-05-09.19:15:05::SCWMssOS::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/PmodCOLOR_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-e
+TRACE::2022-05-09.19:15:05::SCWMssOS::abi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=har
+TRACE::2022-05-09.19:15:05::SCWMssOS::d -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_9/src
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_13/src
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_4/src
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_9/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-05-09.19:15:05::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-05-09.19:15:05::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/sdps_v3_13/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-05-09.19:15:05::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-05-09.19:15:05::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-05-09.19:15:05::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-05-09.19:15:05::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/iic_v3_8/src
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_7/src
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_6/src
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/iic_v3_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2022-05-09.19:15:05::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2022-05-09.19:15:05::SCWMssOS::tfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-05-09.19:15:05::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-05-09.19:15:05::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v4_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-05-09.19:15:05::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-05-09.19:15:05::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_15/src
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_11/src
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_15/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2022-05-09.19:15:05::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2022-05-09.19:15:05::SCWMssOS::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/uartps_v3_11/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2022-05-09.19:15:05::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2022-05-09.19:15:05::SCWMssOS::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_3/src
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_6/src
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2022-05-09.19:15:05::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2022-05-09.19:15:05::SCWMssOS::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v7_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2022-05-09.19:15:05::SCWMssOS::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2022-05-09.19:15:05::SCWMssOS::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_7/src
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/usbps_v2_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-05-09.19:15:05::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-05-09.19:15:05::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_2/src
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-non
+TRACE::2022-05-09.19:15:05::SCWMssOS::e-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=
+TRACE::2022-05-09.19:15:05::SCWMssOS::hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-05-09.19:15:05::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-05-09.19:15:05::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_6/src
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-05-09.19:15:05::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-05-09.19:15:05::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-
+TRACE::2022-05-09.19:15:05::SCWMssOS::eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=ha
+TRACE::2022-05-09.19:15:05::SCWMssOS::rd -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_9/src
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_8/src
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-05-09.19:15:05::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-05-09.19:15:05::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/qspips_v3_9/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-05-09.19:15:05::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-05-09.19:15:05::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Finished building libraries parallelly.
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::make --no-print-directory archive
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::arm-none-eabi-ar -r  ps7_cortexa9_0/lib/libxil.a ps7_cortexa9_0/lib/xqspips_selftest.o ps7_cortexa9_0/lib/lseek.o ps7_cortexa9_
+TRACE::2022-05-09.19:15:05::SCWMssOS::0/lib/xiic_dyn_master.o ps7_cortexa9_0/lib/xsdps_sinit.o ps7_cortexa9_0/lib/xusbps_g.o ps7_cortexa9_0/lib/xusbps_endpoint.o ps7
+TRACE::2022-05-09.19:15:05::SCWMssOS::_cortexa9_0/lib/xusbps.o ps7_cortexa9_0/lib/xqspips_g.o ps7_cortexa9_0/lib/xemacps_sinit.o ps7_cortexa9_0/lib/_sbrk.o ps7_corte
+TRACE::2022-05-09.19:15:05::SCWMssOS::xa9_0/lib/xpm_counter.o ps7_cortexa9_0/lib/xcoresightpsdcc.o ps7_cortexa9_0/lib/xscutimer.o ps7_cortexa9_0/lib/xdmaps.o ps7_cor
+TRACE::2022-05-09.19:15:05::SCWMssOS::texa9_0/lib/xdevcfg_sinit.o ps7_cortexa9_0/lib/xil_testcache.o ps7_cortexa9_0/lib/xscugic_intr.o ps7_cortexa9_0/lib/abort.o ps7
+TRACE::2022-05-09.19:15:05::SCWMssOS::_cortexa9_0/lib/asm_vectors.o ps7_cortexa9_0/lib/xiic_options.o ps7_cortexa9_0/lib/xl2cc_counter.o ps7_cortexa9_0/lib/xgpiops.o
+TRACE::2022-05-09.19:15:05::SCWMssOS:: ps7_cortexa9_0/lib/xil_testmem.o ps7_cortexa9_0/lib/xgpiops_hw.o ps7_cortexa9_0/lib/xiic_slave.o ps7_cortexa9_0/lib/outbyte.o 
+TRACE::2022-05-09.19:15:05::SCWMssOS::ps7_cortexa9_0/lib/xuartps_selftest.o ps7_cortexa9_0/lib/fcntl.o ps7_cortexa9_0/lib/xuartps_sinit.o ps7_cortexa9_0/lib/xiic_sta
+TRACE::2022-05-09.19:15:05::SCWMssOS::ts.o ps7_cortexa9_0/lib/xadcps.o ps7_cortexa9_0/lib/xuartps_g.o ps7_cortexa9_0/lib/xiic_g.o ps7_cortexa9_0/lib/unlink.o ps7_cor
+TRACE::2022-05-09.19:15:05::SCWMssOS::texa9_0/lib/xil_printf.o ps7_cortexa9_0/lib/xiic_intr.o ps7_cortexa9_0/lib/xil_clocking.o ps7_cortexa9_0/lib/xscuwdt.o ps7_cort
+TRACE::2022-05-09.19:15:05::SCWMssOS::exa9_0/lib/xgpiops_selftest.o ps7_cortexa9_0/lib/xusbps_sinit.o ps7_cortexa9_0/lib/xemacps_g.o ps7_cortexa9_0/lib/close.o ps7_c
+TRACE::2022-05-09.19:15:05::SCWMssOS::ortexa9_0/lib/xsdps.o ps7_cortexa9_0/lib/xgpiops_g.o ps7_cortexa9_0/lib/xqspips_hw.o ps7_cortexa9_0/lib/putnum.o ps7_cortexa9_0
+TRACE::2022-05-09.19:15:05::SCWMssOS::/lib/xscutimer_selftest.o ps7_cortexa9_0/lib/xdmaps_selftest.o ps7_cortexa9_0/lib/inbyte.o ps7_cortexa9_0/lib/xemacps_hw.o ps7_
+TRACE::2022-05-09.19:15:05::SCWMssOS::cortexa9_0/lib/xscutimer_sinit.o ps7_cortexa9_0/lib/xdmaps_sinit.o ps7_cortexa9_0/lib/xil_misc_psreset_api.o ps7_cortexa9_0/lib
+TRACE::2022-05-09.19:15:05::SCWMssOS::/xsdps_options.o ps7_cortexa9_0/lib/xscutimer_g.o ps7_cortexa9_0/lib/xdmaps_g.o ps7_cortexa9_0/lib/xqspips_options.o ps7_cortex
+TRACE::2022-05-09.19:15:05::SCWMssOS::a9_0/lib/xil_sleeptimer.o ps7_cortexa9_0/lib/xdevcfg_hw.o ps7_cortexa9_0/lib/sleep.o ps7_cortexa9_0/lib/isatty.o ps7_cortexa9_0
+TRACE::2022-05-09.19:15:05::SCWMssOS::/lib/time.o ps7_cortexa9_0/lib/xplatform_info.o ps7_cortexa9_0/lib/xadcps_selftest.o ps7_cortexa9_0/lib/xadcps_sinit.o ps7_cort
+TRACE::2022-05-09.19:15:05::SCWMssOS::exa9_0/lib/xqspips_sinit.o ps7_cortexa9_0/lib/xadcps_g.o ps7_cortexa9_0/lib/xscugic.o ps7_cortexa9_0/lib/xil-crt0.o ps7_cortexa
+TRACE::2022-05-09.19:15:05::SCWMssOS::9_0/lib/xscuwdt_selftest.o ps7_cortexa9_0/lib/xemacps_intr.o ps7_cortexa9_0/lib/_exit.o ps7_cortexa9_0/lib/xgpiops_sinit.o ps7_
+TRACE::2022-05-09.19:15:05::SCWMssOS::cortexa9_0/lib/xscuwdt_g.o ps7_cortexa9_0/lib/vectors.o ps7_cortexa9_0/lib/xdevcfg_intr.o ps7_cortexa9_0/lib/errno.o ps7_cortex
+TRACE::2022-05-09.19:15:05::SCWMssOS::a9_0/lib/fstat.o ps7_cortexa9_0/lib/xsdps_g.o ps7_cortexa9_0/lib/xusbps_hw.o ps7_cortexa9_0/lib/sbrk.o ps7_cortexa9_0/lib/xscuw
+TRACE::2022-05-09.19:15:05::SCWMssOS::dt_sinit.o ps7_cortexa9_0/lib/xiic_l.o ps7_cortexa9_0/lib/getpid.o ps7_cortexa9_0/lib/xdevcfg_selftest.o ps7_cortexa9_0/lib/xdm
+TRACE::2022-05-09.19:15:05::SCWMssOS::aps_hw.o ps7_cortexa9_0/lib/xsdps_card.o ps7_cortexa9_0/lib/xuartps_intr.o ps7_cortexa9_0/lib/xil_util.o ps7_cortexa9_0/lib/xsc
+TRACE::2022-05-09.19:15:05::SCWMssOS::ugic_selftest.o ps7_cortexa9_0/lib/xtime_l.o ps7_cortexa9_0/lib/xuartps_hw.o ps7_cortexa9_0/lib/xdevcfg_g.o ps7_cortexa9_0/lib/
+TRACE::2022-05-09.19:15:05::SCWMssOS::open.o ps7_cortexa9_0/lib/xscugic_sinit.o ps7_cortexa9_0/lib/xgpiops_intr.o ps7_cortexa9_0/lib/xscugic_g.o ps7_cortexa9_0/lib/x
+TRACE::2022-05-09.19:15:05::SCWMssOS::il_sleepcommon.o ps7_cortexa9_0/lib/usleep.o ps7_cortexa9_0/lib/xadcps_intr.o ps7_cortexa9_0/lib/cpu_init.o ps7_cortexa9_0/lib/
+TRACE::2022-05-09.19:15:05::SCWMssOS::xemacps_bdring.o ps7_cortexa9_0/lib/boot.o ps7_cortexa9_0/lib/xil_mmu.o ps7_cortexa9_0/lib/write.o ps7_cortexa9_0/lib/translati
+TRACE::2022-05-09.19:15:05::SCWMssOS::on_table.o ps7_cortexa9_0/lib/xil_spinlock.o ps7_cortexa9_0/lib/xqspips.o ps7_cortexa9_0/lib/xuartps_options.o ps7_cortexa9_0/l
+TRACE::2022-05-09.19:15:05::SCWMssOS::ib/xiic_sinit.o ps7_cortexa9_0/lib/xiic_multi_master.o ps7_cortexa9_0/lib/xil_testio.o ps7_cortexa9_0/lib/xil_cache.o ps7_corte
+TRACE::2022-05-09.19:15:05::SCWMssOS::xa9_0/lib/xemacps.o ps7_cortexa9_0/lib/xdevcfg.o ps7_cortexa9_0/lib/read.o ps7_cortexa9_0/lib/print.o ps7_cortexa9_0/lib/kill.o
+TRACE::2022-05-09.19:15:05::SCWMssOS:: ps7_cortexa9_0/lib/xil_mem.o ps7_cortexa9_0/lib/cpputest_time.o ps7_cortexa9_0/lib/xiic_selftest.o ps7_cortexa9_0/lib/xuartps.
+TRACE::2022-05-09.19:15:05::SCWMssOS::o ps7_cortexa9_0/lib/xiic.o ps7_cortexa9_0/lib/xscugic_hw.o ps7_cortexa9_0/lib/xsdps_host.o ps7_cortexa9_0/lib/xusbps_intr.o ps
+TRACE::2022-05-09.19:15:05::SCWMssOS::7_cortexa9_0/lib/xil_assert.o ps7_cortexa9_0/lib/_open.o ps7_cortexa9_0/lib/xiic_master.o ps7_cortexa9_0/lib/xemacps_control.o 
+TRACE::2022-05-09.19:15:05::SCWMssOS::ps7_cortexa9_0/lib/xil_exception.o
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Finished building libraries
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Copying to export directory.
+TRACE::2022-05-09.19:15:05::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-05-09.19:15:05::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-05-09.19:15:05::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2022-05-09.19:15:05::SCWSystem::Completed Processing the sysconfig Final_Project_Platform
+LOG::2022-05-09.19:15:05::SCWPlatform::Completed generating the artifacts for system configuration Final_Project_Platform
+TRACE::2022-05-09.19:15:05::SCWPlatform::Started preparing the platform 
+TRACE::2022-05-09.19:15:05::SCWSystem::Writing the bif file for system config Final_Project_Platform
+TRACE::2022-05-09.19:15:05::SCWSystem::dir created 
+TRACE::2022-05-09.19:15:05::SCWSystem::Writing the bif 
+TRACE::2022-05-09.19:15:05::SCWPlatform::Started writing the spfm file 
+TRACE::2022-05-09.19:15:05::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-05-09.19:15:05::SCWPlatform::Completed generating the platform
+TRACE::2022-05-09.19:15:05::SCWMssOS::Saving the mss changes /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-09.19:15:05::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-05-09.19:15:05::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-05-09.19:15:05::SCWMssOS::Commit changes completed.
+TRACE::2022-05-09.19:15:05::SCWMssOS::Saving the mss changes /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-09.19:15:05::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-05-09.19:15:05::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-05-09.19:15:05::SCWMssOS::Commit changes completed.
+TRACE::2022-05-09.19:15:05::SCWPlatform::Trying to open the hw design at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:05::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:05::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:05::SCWPlatform::DSA directory /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw
+TRACE::2022-05-09.19:15:05::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:05::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.19:15:05::SCWPlatform::Trying to set the existing hwdb with name Final_Project_BD_wrapper_0
+TRACE::2022-05-09.19:15:05::SCWPlatform::Opened existing hwdb Final_Project_BD_wrapper_0
+TRACE::2022-05-09.19:15:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-09.19:15:05::SCWMssOS::Checking the sw design at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-09.19:15:05::SCWMssOS::DEBUG:  swdes dump  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Sw design exists and opened at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-09.19:15:05::SCWPlatform::Trying to open the hw design at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:05::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:05::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:05::SCWPlatform::DSA directory /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw
+TRACE::2022-05-09.19:15:05::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:05::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.19:15:05::SCWPlatform::Trying to set the existing hwdb with name Final_Project_BD_wrapper_0
+TRACE::2022-05-09.19:15:05::SCWPlatform::Opened existing hwdb Final_Project_BD_wrapper_0
+TRACE::2022-05-09.19:15:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-09.19:15:05::SCWMssOS::Checking the sw design at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-09.19:15:05::SCWMssOS::DEBUG:  swdes dump  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Sw design exists and opened at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-09.19:15:05::SCWWriter::formatted JSON is {
+	"platformName":	"Final_Project_Platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Final_Project_Platform",
+	"platHandOff":	"/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/hardware/Final_Project/Final_Project_BD_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Final_Project_BD_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Final_Project_Platform",
+	"systems":	[{
+			"systemName":	"Final_Project_Platform",
+			"systemDesc":	"Final_Project_Platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Final_Project_Platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"1bdba67153d53fd84b3f18965a8ddbf7",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.6", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"/tools/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"/tools/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"d1e3b484a8454a67b14aef44ca5c76a3",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-05-09.19:15:05::SCWPlatform::updated the xpfm file.
+TRACE::2022-05-09.19:15:05::SCWPlatform::Trying to open the hw design at /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:05::SCWPlatform::DSA given /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:05::SCWPlatform::DSA absoulate path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:05::SCWPlatform::DSA directory /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw
+TRACE::2022-05-09.19:15:05::SCWPlatform:: Platform Path /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/hw/Final_Project_BD_wrapper.xsa
+TRACE::2022-05-09.19:15:05::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2022-05-09.19:15:05::SCWPlatform::Trying to set the existing hwdb with name Final_Project_BD_wrapper_0
+TRACE::2022-05-09.19:15:05::SCWPlatform::Opened existing hwdb Final_Project_BD_wrapper_0
+TRACE::2022-05-09.19:15:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-09.19:15:05::SCWMssOS::Checking the sw design at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-09.19:15:05::SCWMssOS::DEBUG:  swdes dump  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-09.19:15:05::SCWMssOS::Sw design exists and opened at  /home/rgalmazar/Documents/ECE520/FinalProject/520-Final-Project/software/Final_Project_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
